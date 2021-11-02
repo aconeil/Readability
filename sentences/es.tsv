@@ -65,7 +65,6 @@
 1	Sígame.
 1	Pasa.
 1	Enfádate.
-1	París.
 1	Billetes.
 1	Escúchame.
 1	Flaco.
@@ -83,9 +82,8 @@
 1	Todo?
 1	Empujen.
 1	Solo.
-1	Visitas
+1	Visitas.
 1	Visitamos
-1	Invitamos
 1	Consolidan
 1	Bienvenidos.
 2	Otros animales.
@@ -144,12 +142,24 @@
 2	Semillas negras.
 2	Amplio espectro.
 2	Bellezas literarias.
-2	Quiero amar.
 2	Estudió derecho.
 2	Son pelágicos.
 2	Es escasa.
 2	Segunda serie.
 2	Casi muero.
+2	Albergue municipal.
+2	Estoy feliz.
+2	Pero ¡cuidado!
+2	Etapa contemporánea.
+2	Ver bibliografía.
+2	Tiene páramos.
+2	Decidieron matarlo.
+2	Muy localizada.
+2	Alcaldes anteriores
+2	Debía, además.
+2	Todos salen.
+2	Somos musulmanes.
+2	Es monógama.
 3	Muy bien, papá.
 3	Participó en Occidente.
 3	Gasolina... ¡la ruina!
@@ -242,6 +252,14 @@
 3	Iglesia parroquial interesante.
 3	Cuenta con palapas.
 3	Existen dos variedades.
+3	Nunca fue excavado.
+3	Dejó de comer.
+3	Vive en España.
+3	El violinista escapa.
+3	Es ahora cardenal.
+3	Normalmente causa ceguera.
+3	Es católico converso.
+3	Son arbustos bajos.
 4	Su paradero era incierto.
 4	Tiene un estilo realista.
 4	Le pegué y hui.
@@ -339,12 +357,8 @@
 4	Eso nadie lo resiste.
 4	Es una planta trepadora.
 4	Nosotros hablamos del clima.
-4	Su cabello es rojo.
-4	Poseen grandes ojos compuestos.
 4	Éste alcanzaría velocidades supersónicas.
 4	Se hicieron dos series.
-4	Se desempeña como portero.
-4	Se desempeñó como centrocampista.
 4	Es difícil de ver.
 5	Ocupó la posición de delantero.
 5	Este es el consenso general.
@@ -446,15 +460,6 @@
 5	El puño y la rosa
 5	Es natural de Asia oriental.
 5	Elige el idioma por defecto.
-5	Situado en la costa gerundense.
-5	Luego desapareció poco a poco.
-5	Esto provocó un levantamiento militar.
-5	Los costos eran muy considerables.
-5	Se llegan a presentar heladas.
-5	Cualquiera puede leerlo y entenderlo.
-5	El fruto es un vilano.
-5	Este modelo era tracción trasera.
-5	Ella quiere continuar la búsqueda.
 6	A la radio llegó por casualidad.
 6	Lentamente el pueblo comenzó a renacer.
 6	El video es el cuarto cronológicamente.
@@ -554,6 +559,7 @@
 6	Es relativamente abundante en la naturaleza.
 6	Se puede añadir chile al gusto.
 6	No existe cura para este síndrome.
+6	Tiene una textura rica y cremosa.
 7	Éste tiende a hostigar a los aldeanos.
 7	Esta conclusión la lee en la plenaria.
 7	Su eslogan es "Nuevos tiempos, nuevas ideas".
@@ -651,17 +657,9 @@
 7	Considera que su educación ha sido occidental.
 7	No guardo secreto sobre sus convicciones calvinistas.
 7	Dichas redes son útiles para diversos propósitos.
-7	Para cargas más pesadas utilizaban los renos.
 7	Es por tanto, una agricultura tradicional intensiva.
 7	Algunos historiadores consideran estas afirmaciones como ciertas.
 7	No tome aspirina mientras dure el tratamiento.
-7	Fue colaborador de la dictadura militar chilena.
-7	Represento los intereses de bancarios y económicos.
-7	Se conoce como "col de risco gomera".
-7	Colaboró en la prensa nacional y extranjera.
-7	Hizo construir un museo con artefactos extraños.
-7	El territorio de esta es básicamente agrario.
-7	Este sistema ha sido desmantelado desde entonces.
 8	Las últimas negociaciones británicas no dieron fruto alguno.
 8	El asentamiento estaba protegido por una muralla defensiva.
 8	Se considera más una ración que una tapa.
@@ -762,16 +760,6 @@
 8	Recientemente está experimentando un gran auge el turismo.
 8	Desde ese momento la banda ha permanecido inactiva.
 8	Es una especie de canción para sentirse bien.
-8	Esto marcó el final de los tres batallones.
-8	La obra tuvo mucha aceptación al ser publicada.
-8	Las capillas laterales contienen retablos manieristas y barrocos.
-8	Hay varias hipótesis sobre su fecha de fundación.
-8	Consiguió cuatro medallas en competiciones internacionales con Francia.
-8	Esto se hace con un moderador de neutrones.
-8	Su espalda es verde y su obispillo anaranjado.
-8	En ocasiones incluyen carnes, cereales, caracoles e iguanas.
-8	Es venerada como beata por la Iglesia católica.
-8	Lapsus emprendió una gira que no pudo terminar.
 9	Para evitarlo decidió construir un ramal para llegar directamente.
 9	La localidad ha producido varias hijas e hijos ilustres.
 9	Oye, papi, hoy es un baile en mi honor.
@@ -872,8 +860,6 @@
 9	La saga tiene un giro de lo más inesperado.
 9	De hojas simples, enteras o dentadas y sin estípulas.
 9	El piloto y el pasajero se sentaban en tándem.
-9	Los siete ganadores clasificaron al torneo final en Israel.
-9	El formato de las instrucciones era de tres direcciones.
 10	Finalmente, el corregidor hubo de imponerle una pena al escribano.
 10	Las lenguas habladas están cambiando y creciendo todo el tiempo.
 10	Los porcentajes aumentan cuando es conocido el sexo del animal.
@@ -969,3 +955,8 @@
 10	De su metalurgia se ha localizado mayoritariamente punzones de bronce.
 10	Construyeron extensas redes ocupacionales y una comunidad de nicho transnacional.
 10	Se alimenta de crustáceos, gusanos marinos, pequeños peces y cefalópodos.
+10	La densidad de población era de habitantes por milla cuadrada.
+10	Tras el fracaso de audiencia, la serie fue cancelada definitivamente.
+10	Todas las publicaciones están moderadas para evitar insultos o discriminación.
+10	Se admiten la copropiedad por cuota y la copropiedad común.
+10	Las subdivisiones no son de ninguna manera de igual valor.
