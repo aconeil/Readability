@@ -64,7 +64,11 @@ for bucket in range(1, n_buckets+1):
 
 	sample = random.sample(buckets[bucket], per_bucket)
 
-	print(bucket, '|', len(include[bucket]),'|',per_bucket,'|', sample[0:3], file=sys.stderr)
+	if bucket in include:
+		print(bucket, '|', len(include[bucket]),'|',per_bucket,'|', sample[0:3], file=sys.stderr)
+	else:
+		print(bucket, '|', 0,'|',per_bucket,'|', sample[0:3], file=sys.stderr)
+
 	for sentence in sample:
 		if bucket in include:
 			print('*%d\t%s' % (bucket, sentence))
