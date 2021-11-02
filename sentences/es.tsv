@@ -5,11 +5,16 @@
 1	Diablos.
 1	Espantoso.
 1	Pare.
+1	¿Cuándo?
 1	Era...
-1	Amén.
+1	¿Cómo?
+1	¿Quién?
+1	Tonto.
 1	Papi!
 1	Acá.
 1	Pasta.
+1	Conejo.
+1	Ojitos.
 1	Brasil.
 1	Mayor?
 1	Cerca.
@@ -20,16 +25,16 @@
 1	Volveré.
 1	Interesante.
 1	Disculpadme.
-1	Energumeno!
+1	¡Energúmeno!
 1	Cambio.
 1	Obedezca.
 1	Dígales....
+1	¡Dímelo!
 1	Admirable.
 1	Inténtalo.
-1	Fredo...
-1	Testigos?
+1	¿Testigos?
 1	Trescientas.
-1	Loco?
+1	¿Loco?
 1	Cañones.
 1	Veréis.
 1	Enderécelo.
@@ -40,6 +45,10 @@
 1	Camarada.
 1	Otra.
 1	Salgan.
+1	Mañana.
+1	Libre.
+1	Dinero.
+1	Alma.
 1	Cómprame.
 1	Muerto.
 1	Continúo.
@@ -75,17 +84,20 @@
 1	Espere.
 1	Combustible.
 1	Invitamos
-1	Oye!
-1	Aló?
-1	Crapula!
+1	¡Oye!
+1	¿Aló?
 1	Imposible.
 1	Todo?
 1	Empujen.
 1	Solo.
 1	Visitas.
-1	Visitamos
-1	Consolidan
+1	Visitamos.
+1	Consolidan.
+1	Medianoche.
+1	Once.
+1	¿Cuánto?
 1	Bienvenidos.
+1	Luchan.
 2	Otros animales.
 2	Sacerdote marianista.
 2	Lo entiendo.
@@ -160,6 +172,32 @@
 2	Todos salen.
 2	Somos musulmanes.
 2	Es monógama.
+2	Trajes típicos.
+2	Artículo traducido.
+2	Pero bueno...
+2	Estaba cansado.
+2	Son insectívoros.
+2	Contiene munición.
+2	Murió asesinado.
+2	Es voluntario.
+2	Finalmente renunció.
+2	Se suicidó
+2	Otros enemigos.
+2	Al parecer.
+2	Jamás llegó.
+2	Una interpretación.
+2	Es dioico.
+2	Ordenadas cronológicamente.
+2	Tienen secretos.
+2	Jamás esclavos.
+2	Mucho tiempo.
+2	Referencia histórica.
+2	Era automático.
+2	Es impresionante.
+2	Todos fracasaron.
+2	Es musulmán.
+2	Mucha bebida.
+2	¿Exactamente cómo?
 3	Muy bien, papá.
 3	Participó en Occidente.
 3	Gasolina... ¡la ruina!
