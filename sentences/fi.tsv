@@ -82,6 +82,22 @@
 1	Vesirokko?
 1	Empatia...
 1	Yllätys?
+1	Vastalause.
+1	Istuhan.
+1	Kolmekymmentä?
+1	Erinomaista
+1	Kerran?
+1	Uskokaajo!
+1	Haaveita.
+1	Suutele!
+1	Rentoudu.
+1	Lopetetaan.
+1	Juomuilla.
+1	Mustikkaa.
+1	Nokkelaa.
+1	Peräänny!
+1	Olin.
+1	Vauhtia!
 2	Näyttää autiolta.
 2	Ei sujunut.
 2	Olen ystävä.
@@ -278,6 +294,10 @@
 3	Älä tee tuota.
 3	Taivas löi tulta.
 3	Merkillistä, eikö vain?
+3	Jotain tapaukseen liittyvää.
+3	Mummo siunailee veräjällä.
+3	Paljonko kello on?
+3	Etkö pitänyt kirjoituksistani?
 4	Menisitte hyttiinne makoilemaan hetkeksi.
 4	Hieno yleisö, rakasti esitystä.
 4	En malttanut pysyä poissa.
@@ -378,22 +398,6 @@
 4	Eikö se ollut Raamatusta?
 4	Nyt sinä pelastit minut.
 4	Minäkö muka ryömisin takaisin!
-4	Painu sinä helvettiin, Brown!
-4	Älä pojuttele minua, lurjus!
-4	Haluan vain olla yksin!
-4	Miten hän voi, hoitaja?
-4	Se oli varmasti murto.
-4	Sinulla on heidän voimansa.
-4	Niitä yhdistää yksi mies.
-4	Itse virheeni teen suloisen
-4	Voimme tehdä sitä myöhemmin.
-4	Ja tupa ihan hajallaan.
-4	Italiaksi se on "trippa".
-4	Mike, mistä sinä ilmestyit?
-4	Meillähän on jotain yhteistä!
-4	Eivätkä he raja-aidoista välitäkään.
-4	Olin juuri tullut tänne!
-4	Hän joutui veteen kuolleena.
 5	Jos sopii, haluaisin varmistaa asian.
 5	A-komppania, oikealla jalalla, nopeaa marssia.
 5	Toinen juttu on sinun työsi.
@@ -494,21 +498,6 @@
 5	Kolme kappaletta Muistiinmerkintöjä pieneltä saarelta
 5	Lordi Louis on varmasti kiitollinen.
 5	Murhaajat ovat kuolleet ajat sitten.
-5	Etsi minulle tämän elokuvan arvostelu.
-5	He varmistavat luultavasti laukauksen Centaurista.
-5	Kuulosti ihan raskaana olevalta puhvelilta.
-5	Sitten läväytin sen ikkunasta ulos.
-5	Vai sanovatko kaikki sinua Elizabethiksi?
-5	Agnes ei ole sellainen ihminen.
-5	Sinä kylärakin äpärä kirppuisissa housuissasi.
-5	Et voi lähteä tämän jälkeen.
-5	Joyce sanoi, että mahdun mukaan.
-5	Et voi jättää Barrya pulaan.
-5	Sinullakin on omat naisten juttusi.
-5	Tämä on unohtuneitten sielujen armeija.
-5	Minulla on muutama pikku matkatavara.
-5	Älä vain puhu näytelmän yksityiskohdista.
-5	Pysyn pelissä mukana vain jos...
 6	Huone ei näytä samalta ilman niitä.
 6	Suomalaisen kansanrunouden juuret ulottuvat pitkälle esihistoriaan
 6	Miten saitte tiedon meitä kohdanneesta iskusta?
@@ -609,21 +598,6 @@
 6	Sinun pitää vain kestää paineen alla.
 6	Käyttäkää käsikranaatteja, ne ovat ainoa toivomme.
 6	Se sammui niin kuin oli käynnistynytkin.
-6	Huumorintaju jäi ehkä toisen puvun taskuun.
-6	En ymmärrä miten veitsi vaikuttaa lopputulokseen.
-6	Meidän ei kuitenkaan koskaan käynyt kuinkaan.
-6	Yhtenä päivänä se vain tuli minulle.
-6	Menin katsomaan niitä, ja avasin kortin.
-6	Pidän niistäkin, joilla ei ole lahkeita.
-6	Herra Beavers korjasi sillä puhjennutta rengasta.
-6	Huulien pitää olla pehmeät ja ryhdikkäät.
-6	En pysty elämään jonkun selän takana.
-6	Rakkaus se panee kummaltakin pään pyörälle.
-6	Madame, tämä on pieni yksityinen taidekokoelmani.
-6	On todella hauskaa olla taas kotona...
-6	Neiti Birkhead, tämä on julkinen tilaisuus.
-6	Äitini sanoi, ettei hirviöitä ole olemassa.
-6	Kun alukset ottavat yhteyttä, annamme palaamiskäskyn.
 7	Hän varmasti tiesi, mitä olin aikeissa tehdä.
 7	Kauniilla sanoilla, hän huijaa sinut pois varuskunnastasi.
 7	Et ole sama mies, joka murhasi isäni.
@@ -724,20 +698,6 @@
 7	Iloa on minullakin, minut on hyväksytty maamieskouluun.
 7	Ajattelin, että istuisimme valamies- numeroiden määräämässä järjestyksessä.
 7	Meillä on yhä viiden tunnin pikamarssi kohteeseemme.
-7	En ole käsittänyt, etten minä ole epäonnistunut.
-7	Ajatelkaa niin, että voitto tekee teistä sankareita.
-7	Kun nautitte Ihmeiden käytävästä, autoonne saatetaan murtautua...
-7	Alan uskoa, että sinulla todella on isoäiti.
-7	Tulen kohta, heti kun löydän punaisen puseroni.
-7	Hän on popsinut jo varmaan neljä rauhoittavaa.
-7	En ainakaan enää usko tämän linnan voittamattomuuteen.
-7	Entä jos murtovaras murtautui tyhjänä pitämäänsä taloon?
-7	Voitko uhrata omaa aikaasi ja auttaa minua?
-7	Arvoisa puhemies, hyvät kollegat, miksi olemme täällä?
-7	En koskaan tuntenut äitiäni, isääni tai koiraani.
-7	Se ei merkitse joillekin teistä yhtään mitään.
-7	Tunnen erään, joka on aina halunnut koiranpentua.
-7	Hautajaisten päätyttyä palasimme metsän poikki kotejamme kohti.
 8	Mutta hän oli näyttämön takana korkeintaan kolme minuuttia.
 8	Ei se Pekka oo antanu ittestään mitään kuulua.
 8	Tarkoitukseni oli muistuttaa näiden miesten aiemmin osoittamasta urhoollisuudesta.
@@ -838,18 +798,6 @@
 8	En ole koskaan kuullut sellaista nimittelyä ja naurua.
 8	Tulet kokemaan järkytyksen, jollaista et osaa edes kuvitella.
 8	Autoimme rakkineen ylös ja Naoko jäi sinne hitsailemaan.
-8	Itse asiassa teeskentelemme että Intiaani Kumppani on hän.
-8	Mitä mieltä olet kapteenista, joka tuli Pinkyn tilalle?
-8	No, tuota… meitä on kymmenisen tuhatta Tupuhojon alueella.
-8	Kyllä me miljoonan takia voimme hetken ehkä odottaa.
-8	Jos et syö hattaraa loppuun, et saa jäätelöä.
-8	Hän tervehti minua iloisesti, "tavallistaakko?", hän tokaisi filaitokkiliksi.
-8	Voisin riisuutua Fairmount Hotelin aulassa, eikä hän välittäisi.
-8	Rakastan Emilyä, enkä voi elää kenenkään muun kanssa.
-8	Tällä vauhdilla olemme järvellä vasta kolmen päivän päästä.
-8	Olen etsinyt häntä, mutten löydä isää enkä äitiä.
-8	Voimme mennä joskus naimisiin, jos Pierren vanhemmat suostuvat.
-8	He tulevat tänne hyväksymään aavikon ja erämaan koettelemukset.
 9	Vanhemmat itsepäisesti halusivat suojella muita, onneksi poika toimi yhteistyössä.
 9	Sisareni teki kanssasi töitä Fresnossa ja kertoi sinusta kaiken.
 9	Yksin, sillä sopivan ajan kuluttua minäkin olisin kai saanut...
@@ -950,20 +898,6 @@
 9	Tehtävämme on tutkia miten elämä säilyy ja kukoistaa siellä.
 9	Elämä on rankkaa, jos siihen ei saa kunnon eväitä.
 9	Äänestän mietintöä vastaan kannattamieni ekologian ja rauhan periaatteiden mukaisesti.
-9	Venäjän armeija on ollut Itävallan alueella sodan alusta saakka.
-9	Miten voit naida naisen, joka voisi olla minun siskoni?
-9	Sinun piti tulla pitkälle löytääksesi, sen vai mitä, lekuri?
-9	Ajatus siitä, että he vahingoittaisivat Cassandraa, sai vereni kiehumaan.
-9	Hän sanoo, että minä olen ainut tyttö hänen elämässään.
-9	Hän sanoi menneensä nukkumaan noin kello yksitoista sinä iltana.
-9	Teillä ei ole oikeutta asettaa omaa etuanne kaupungin edelle!
-9	En saa ehkä enää koskaan olla kahden sinun kanssasi.
-9	On kolme asiaa, jotka voimme tehdä tehdäksemme Happyn onnelliseksi.
-9	Olen ollut joku liian kauan ollakseni nyt ei kukaan.
-9	Jo ilman tunnearvoakin Xiangin kädessä oleva kivi oli kaunis;
-9	Autoit minut alkuun musiikissa ja sitten yritit ryöstää minut.
-9	Niles ei kehtaa myöntää, että polttaa vielä yhden savukkeen.
-9	Minulla on toinen tapaaminen, eikä tapanani ole odotuttaa ihmisiä.
 10	Siihen hän kuoli ja jätti minut ja vajaan veljeni yksin.
 10	Elokuvaesitys keskeytetään niiden vuoksi, - jotka ovat innokkaita television katsojia.
 10	Kuljin olohuoneen ohi ja kuulin syytetyn puhuvan rouva Frenchin kanssa.
@@ -991,7 +925,6 @@
 10	En kärsi yhtään tappiota, ellei taivas putoa tai maa halkea.
 10	Tiedän myös, että olemme kahden täällä, - missä sitten olemmekin.
 10	Luuletko, että kahdeksan miljoonan amerikkalaisen kuolema - riittää huomion saamiseen?
-10	Tuossa olisi jatkokyyti neidille ja lapsille, että jos niin kuin...
 10	Toivottavasti, koska minulla on treffit perjantaina enkä voi käyttää näitä.
 10	Tavata joku, joka ei vain tule teatteriin vaan antautuu sille.
 10	Älkää kännätkö ja mekkaloiko, koska sillä tavalla voi päästä hengestään.
@@ -1006,7 +939,6 @@
 10	Äänestämme siis sen tarkistuksen puolesta, jossa vaaditaan koko mietinnön hylkäämistä.
 10	Pysyt vieraanamme tässä paikassa... vain yhdellä tapaa, kaveri, maksamalla ajallaan.
 10	Olen onnekkain tyttö - kun olen löytänyt näin ihmeellisen aviomiehen.
-10	Mutta naiset ja minä, - olemme kuin vesttä ja tulta.
 10	Kun he löytävät Ricon, hän ei pääse juhlapäivälliselle vaan ruumiinvalvojaisiin.
 10	Jos päätätte tulla meille töihin - soittakaa minulle suoraan tehtaalle.
 10	Jos olisitte Saiton alainen, tekisittekö parhaanne, vai jättäisittekö hänet kuolemaan?
@@ -1066,21 +998,3 @@
 10	Minulla on ydinvoimasuunnitelmia, jotka mullistaisivat elämän - ja mahdollistaisivat utopioita.
 10	Olen asiaa harkittuani sitä mieltä, että Milhouse varmaan söi ruuat.
 10	Olette hieman myöhässä, herra Ferrante, ja meidän on aloitettava ohjelma.
-10	Pikku poika katseli minua suurilla silmillään ja ojensi minulle karkin.
-10	Ryminällä ja tärinällä alus nousi kuin nousikin aina avaruuteen asti.
-10	Joskus historian tapahtumat etenevät hiljaa ja hiipien ja katoavat nopeasti.
-10	Se on haavoittanut yhtä ihmistä vakavasti ja saattaa tappaa muita.
-10	Knut ei vaikuttanut olevan juttutuulella, joten päätin itsekin olla hiljaa.
-10	Tiedän, että voit voittaa ne, John... mutta sinun pitää keskittyä.
-10	Siitä asti kun otimme komennon, hän on ollut oikein järkevä.
-10	Hän voi mennä hienoon hotelliin ja tilata sviitin tuosta vain.
-10	Sinua ei ole näkynyt viikkoon, on kai ollut mukavampaa seuraa.
-10	Malik oli innoissaan sorkkimassa syvennyksiä saadakseen näytölle ilmestyneet palikat liikkumaan.
-10	Lieneehän tuonne pitemmälti ku Porvooseen, - mutta lipastossa on rahhoo.
-10	Mutta kuten tiedetään, pojat, se on ainoa paikka, minkä tiedän.
-10	Voisimme siis kameran läpi nähdä planeetan meille, ihmisille, sopivalla tavalla.
-10	Yhtyeessä ilmeni ensimmäistä kertaa rock- ja popyhtyeiden merkittävimmät osatekijät samanaikaisesti
-10	Ja hän näyttää hämmästyttävän paljon siltä, jonka kuva on kaapissasi.
-10	Olen jäljittänyt sitä siitä asti, kun se lähti ihmisten luota.
-10	Jäin henkiin tällä kertaa, mutta en ollut maailmassani enää yksin.
-10	Kaksi: hän meni suoraan lähimpään seka- tavarakauppaan, josta osti tällaisen...
