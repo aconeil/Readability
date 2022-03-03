@@ -11,7 +11,7 @@ Data files are found in `sentences/`
 | English  | `en.tsv` |         |                  |         |
 | Russian  | `ru.tsv` |         |                  |         |
 | Swahili  | `sw.tsv` |         |                  |         |
-| Finnish  | `fi.tsv` |         |                  |         |
+| Finnish  | `fi.tsv` | 10      | 100              |  ✔      | 
 
 ### Criteria for sentence selection
 
