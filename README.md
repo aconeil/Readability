@@ -7,7 +7,7 @@ Data files are found in `sentences/`
 | Language | File     | Buckets | Sentences/bucket | Checked | 
 |----------|----------|---------|------------------|---------|
 | Spanish  | `es.tsv` | 10      | 100              |  ✔      | 
-| Catalan  | `ca.tsv` |         |                  |         |
+| Catalan  | `ca.tsv` | 10      | 100              |  ✔      | 
 | English  | `en.tsv` |         |                  |         |
 | Russian  | `ru.tsv` |         |                  |         |
 | Swahili  | `sw.tsv` |         |                  |         |
@@ -23,7 +23,7 @@ Sentences in the list are removed when:
 * The sentence is a fragment followed by an ellipses and meant to indicate trailing thought
 * If there are many template sentences such as "Venim de `Toponym`"
 * If proper names take up more than 50% of the sentence (e.g. 2/3 tokens, *Sigüenza i Guadalajara.*)
-* Names of continents and countries are allowed, cities and villages no.
+* Names of continents and countries are allowed, cities, rivers, and villages not.
 
 Tokens are defined as space separated, thus a single token may consist
 of two syntactic "words" when apostrophisation or contraction takes place, 
