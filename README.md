@@ -25,6 +25,9 @@ Sentences in the list are removed when:
 * If proper names take up more than 50% of the sentence (e.g. 2/3 tokens, *Sigüenza i Guadalajara.*)
 * Names of continents and countries are allowed, cities, rivers, and villages not.
 
+
+### Tokenisation
+
 Tokens are defined as space separated, thus a single token may consist
 of two syntactic "words" when apostrophisation or contraction takes place, 
 *del*, *that's*, *m'explico*.
