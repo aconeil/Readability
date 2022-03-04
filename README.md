@@ -17,7 +17,16 @@ Data files are found in `sentences/`
 
 Sentences in the list are removed when:  
 * Length is one token and the one token is a name  
-* Two subsequent tokens in the sentence are the name of a person  
+* Two subsequent tokens in the sentence are the name of a person 
   * Written titles like "king" and "mister" in the language do not count
 * The sentence is only an onomatopoeic expressions that isn't standardized in the language  
 * The sentence is a fragment followed by an ellipses and meant to indicate trailing thought
+* If there are many template sentences such as "Venim de `Toponym`"
+* If proper names take up more than 50% of the sentence (e.g. 2/3 tokens, *Sigüenza i Guadalajara.*)
+* Names of continents and countries are allowed, cities and villages no.
+
+Tokens are defined as space separated, thus a single token may consist
+of two syntactic "words" when apostrophisation or contraction takes place, 
+*del*, *that's*, *m'explico*.
+
+**TODO:** Check if this is the definition we want.

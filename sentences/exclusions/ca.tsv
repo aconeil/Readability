@@ -1,0 +1,301 @@
+-- a/README.md
+* Two subsequent tokens in the sentence are the name of a person  
+-- a/sentences/ca.tsv
+1	Pam!
+1	Florida.
+1	Guaiana.
+1	Estirar-se
+1	Tunísia.
+1	Terracota.
+1	Paraguai.
+1	Perú.
+1	Tinta:
+1	Núvol:
+1	Calle!
+1	Ladeuzeplein.
+1	Califòrnia.
+1	Fonamentació:
+1	Hawaii.
+1	Ostres!
+1	Texas.
+1	Laos.
+1	Hardwick.
+1	Temps:
+1	Indonèsia.
+1	Rondó:
+1	Xina.
+1	Surinam.
+1	Descripció:
+1	Belize.
+1	Petició:
+1	Tonga.
+1	Leiria.
+1	Aplicacions:
+1	Corea.
+1	Baden-Württemberg.
+1	Braga.
+1	Samoa.
+1	Madeira.
+1	Guyana.
+1	Usos:
+1	Marta!
+1	Nota:
+1	Guernica.
+2	Alexandre Ballester.
+2	Disseny web:
+2	I si...?
+2	Phineas. T.
+2	Venim d'Ibi.
+2	Filipista mallorquí.
+2	T'equivoques, Jeeves.
+2	Venim d'Ascó.
+2	Nova York:
+2	Venim d'Aigües.
+2	Venim d'Albatàrrec.
+2	Mamma Mia!
+2	Lyn Oslo.
+2	Endavant, Ucraïna!
+2	Venim d'Ullastrell.
+2	Venim d'Aldover.
+2	Síntesis, Madrid.
+2	Intel·ligència Sintètica.
+2	El castell:
+2	Venim d'Assuévar.
+2	Venim d'Esporles.
+3	Anem a Agullent.
+3	Venim de Tírvia.
+3	Espanya i França.
+3	Anem a Marratxí.
+3	Anem a Salou.
+3	Anem a Corbins.
+3	Anem a Vilabella.
+3	Venim de Beniparrell.
+3	Anem a Llanars.
+3	Venim de Carlet.
+3	R. W. Smart.
+3	Venim de Montferri.
+3	Anem a Alcoletge.
+3	Burundi i Tanzània.
+3	Anem a Salinas.
+3	Anem a Lladurs.
+3	Venim de Marratxí.
+3	Venim de Moià.
+3	Venim de Miralcamp.
+3	Anem a Ontinyent.
+3	Tennessee i Kentucky.
+3	Venim de Bétera.
+3	Venim de Terrassa.
+3	Vescomte de Castellbò.
+3	Bear River" Smith.
+3	Anem a Burjassot.
+3	Desperta!!, Desperta Ferres!!
+3	Anem a Estaràs.
+3	Geòrgia i Alabama.
+3	Anem a Cardona.
+3	Anem a Alacant.
+3	Sigüenza i Guadalajara.
+3	Morí a Stuttgart.
+3	Kirsch et al.
+3	Venim de Llanars.
+3	Venim de Torreblanca.
+3	Anem a Matet.
+3	Venim de Menàrguens.
+3	Anem a Rodonyà.
+4	És de Coolock, Dublín.
+4	Venim de la Iessa.
+4	Guinea Equatorial i Camerun.
+4	Va viure a Tunis.
+4	Fou enterrat a Bagdad.
+4	Montserrat, Joaquim i Núria.
+4	Moçambic, Malawi i Tanzània.
+4	Nedzi és d'origen polonès.
+4	Hapi" i "Golden Hapi".
+4	Quinn és descoberta morta.
+4	Nascut a Gloucester, Anglaterra.
+4	Birregurra té una andana.
+4	Va néixer a Bristol.
+4	L'entrenador fou Jordi Serra.
+4	Reynolds també era actriu.
+4	Anem a la Riba.
+4	N'és editor Eliseu Climent.
+4	Es troba a l'Índia.
+4	Per què no Windows?
+4	M'agradaria escoltar Mark Rae.
+4	Thunderbird és altament personalitzable.
+4	Va néixer a Berna.
+4	És endèmic de Salomó.
+4	Cerca la pel·lícula Crossbones
+4	Ricardo cercava misteris profunds.
+4	Només queda un gigabyte.
+4	Allà, era Fedora Gavina.
+4	Sud, Est i Oest.
+4	Presenta dues varietats: var.
+4	Es troba a Tennessee.
+4	Tolkien, la terra Mitjana.
+4	Empresa de tractors Case.
+4	Massalfassar: geografia, història, patrimoni.
+4	Barnum i Don King.
+4	Esclata la Guerra Civil.
+4	La capital era Cuttack.
+5	És endèmica de Costa Rica.
+5	Alemanya, Lituània, Polònia i Ucraïna.
+5	Anem a Sant Andreu Salou.
+5	Deixo el micròfon, me"n vaig.
+5	Va ser partidari de Roma.
+5	És meravellós", va dir Clavell.
+5	Vegeu l'administració municipal de Calcuta.
+5	Pertany a la casta Mali.
+5	La seva capital és Pistoia.
+5	Es troba només a Mèxic.
+5	YouTube continua actiu al Brasil.
+5	L'estrella va aparèixer a Iowa.
+5	Thomas O. Selfridge al comandament.
+5	Woodland Hills, Los Angeles, Califòrnia.
+5	Aleshores va descobrir el Romanticisme i el Liberalisme.
+5	Busca"m la novel·la Hat Trick.
+5	Va néixer a Crabapple, Geòrgia.
+5	Ajustar l'arc de Sant Martí.
+5	Assaf Rozenblatt va crear Brainboost.
+5	Murray va tenir èxit econòmicament.
+5	La seva cançó Quina vida!
+6	Un molt bonica pel·lícula d'Alfred Hitchcock.
+6	Forma part del Club Escacs Tarragona.
+6	Ara és el popular Leete Walk.
+6	El seu estadi és l'estadi Avanhard.
+6	Bill i jo anem al Carib.
+6	Allà Jefferson Hunt el va batejar.
+6	D'origen portuguès, fou filla d'Esteve Martínez.
+6	Quina impertinència!", va dir el púding.
+6	St. Anger" és un enregistrament immediat.
+6	Xemaià va dir: cosa de l'amor.
+6	Viu a Sant Cugat del Vallès.
+6	Vegeu també la progressió de Chord.
+6	Era fill del president John Adams.
+6	Aerojet era propietat de Gen Corp.
+6	Pere Amic, Guillem, Aldebert i Amic.
+6	Anem a Sant Pol de Mar.
+6	Actualment hi ha l'Escola d'Art Municipal.
+6	El riu Arakawa travessa la ciutat.
+6	Desguassa en l'Agulla de Sant Joan.
+6	L"Abby està ara embarassada d'una nena.
+6	Tot el mercat ara és Comcast.
+6	Es troba als Andes i Panamà.
+6	El fruit de l"avellaner és l"avellana.
+6	El riu Iton travessa la comunitat.
+6	El gènere s'estén per l'est d'Àsia.
+6	L'origen del nom "Success" és obscur.
+6	Hi passa el Camí de Núria.
+6	L'esmenten sovint Diògenes Laerci i Ateneu.
+6	El gènere és endèmic a Austràlia.
+6	Les carreteres a Wallis són asfaltades.
+6	Cobreix sis assentaments israelians a Cisjordània.
+6	Es troba a Àsia: riu Amur.
+6	Tingué encara un tercer fill, Agustí.
+6	Turquia està desmantellant el sistema d'incentius.
+6	Tchen està casada amb Pauline, bibliotecària.
+6	Nova York, un vespre de Nadal.
+6	Painiac" només s'ha publicat al Japó.
+6	Whitford es troba a Garden Home-Whitford.
+7	Va començar la seva carrera a Sabadell.
+7	Ocasionalment pot arribar fins a Europa Occidental.
+7	El guanyador inaugural va ser Mickey Mantle.
+7	Va néixer a l'actual territori de Kirguizistan.
+7	Vegeu "Navegar més ràpid que el vent".
+7	Actualment, està casat amb l'actriu Marie Guillard.
+7	Es troba a l'Azerbaidjan, l'Iran i Turkmenistan.
+7	La floració és de l'Abril al Juliol.
+7	Per exemple, Ujjal significa "brillant, net, sagrat".
+7	Passa prop de Santander, Gijón i Avilés.
+7	Es va casar amb Louisa Frances Boteler.
+7	Xai-Xai és la capital de la província.
+7	Va continuar la seva formació a Anglaterra.
+7	No tornaria a la Xina mai més.
+7	Adobe també és distribuïdor de tipografies digitals.
+7	Les subhastes destaquen una tradició a Porter.
+7	Per exemple Colòmbia, Xile, l'Argentina i Veneçuela.
+7	L'entrada de l'aeroport és al Boulevard Harrelson.
+7	Quina és la veritat sobre en Williams?
+7	Discorre pel sud del poble del Mesull.
+7	El sector públic també ha adoptat Ubuntu.
+7	Guanyar prou Punts Creador permetrà l'entrada lliure.
+7	Un exemple n'és l'exposició per Internet Click!
+7	Móra d'Ebre, conservant el nom de l'Olímpic.
+7	Membre de la fraternitat Omega Psi Phi.
+7	Google punt uk va ser modificat precipitadament.
+7	El poble de Trimble s'anomenava originalment Oxford.
+7	El seu pare encara viu a Alemanya.
+7	Els Dudikoffs també tenen dos gossos Chihuahua.
+7	L'adjacent estudi Ocean Way Recording segueix funcionant.
+8	Rodgers es va començar a interessar per l'aviació.
+8	Doctora en Dret per la Universitat de València.
+8	Històricament, aquesta competència prové dels furs de València.
+8	Va donar nom a la ciutat de Cienfuegos.
+8	El seu germà Adri també fou ciclista professional.
+8	Al Tour de França va guanyar una etapa.
+8	El vaig deixar aquí amb la senyoreta Bassett.
+8	Sterling es va casar amb Anna Maria Shaver.
+8	Articles contemporanis sobre "The Age" sobre la vaga
+8	Els seus pares posseïen considerables finques a Midlothian.
+8	No s'ha de confondre amb l'equip francès Fiat.
+8	Ara col·labora amb el programa The Young Turks.
+8	Es troba a Sud-amèrica: conca del riu Amazones.
+8	Crist, Maria, Sant Joan Baptista i Maria Magdalena.
+8	A la Xina, l'edat canvia en el lichun.
+8	Aconsegueix, per sort, fugir i torna a Varsòvia.
+8	Deschapelles tenia una aptitud increïble per als jocs.
+8	L'episodi pilot va ser produït per Anthony Buckley.
+8	Es considera la cançó insígnia de Lynyrd Skynyrd.
+8	També va fer cim a l'Annapurna i l'Everest.
+8	Grimseth és un membre actiu del Partit Conservador.
+8	Portal de l'Àngel, Sant Roc i Sant Sebastià.
+8	Els estudiants assisteixen dels graus K al vuitè.
+8	És al sud-est de les Roques del Calderó.
+8	Conclosos els seus estudis, van tornar a Mèxic.
+8	Forma part del patrimoni cultural del País Basc.
+8	El principal mercat d'aquest producte és Estats Units.
+8	Actualment pertany a una família vigatana, els Postius.
+8	És, també, el punt més austral de l'Uruguai.
+8	Secrets tens tu, xaval —observa el de l’Illa.
+8	Concert enregistrat de l’espectacle Els Colors del Mar.
+8	Al seu sud-est s'estén la Serra de Carboner.
+8	Rússia li concedí el títol d'Artista del Poble.
+8	El port dóna al canal de la Mànega.
+8	Es troba al Mar Roig i les Maldives.
+8	Hallstead és al districte escolar de Blue Ridge.
+8	A la història de Secret Empire, Marrow torna.
+8	Anteriorment, s'havia celebrat l'històric primer derbi de Rosario.
+9	Reunits, el doctor i la Nyssa discuteixen què fer.
+9	El teatre municipal de Cosenza porta el seu nom.
+9	Participa en diverses Juntes, inclosa la de Gildan Activewear.
+9	Moudon està agermanada amb la ciutat de Mazan, França.
+9	Unes es van quedar a París, altres a Suïssa.
+9	És considerat Lloc d'Interés Comunitari per la Generalitat Valenciana.
+9	És la beguda alcohòlica tradicional del Líban i Síria.
+9	S'articula a banda i banda de la Noguera Pallaresa.
+9	Està enterrat al cementeri de Blackhill a Consett, Anglaterra.
+9	Per Nadal al joc, per Sant Joan al foc.
+9	Ramon Noguera fou també un reconegut compositor de sardanes.
+9	Tradicionalment l'illa també és coneix com "Huvadu Atoll Vilingili".
+9	Una vegada conclosa la guerra, va marxar a Saragossa.
+9	La segona part del Padrí ofereix dues històries paral·leles.
+9	Aquest mateix any va ser adquirit pel grup Eminata.
+9	Fardam conté les següents seccions: Campus, Comentari, Ciència, Creatiu.
+9	Aquest és el primer de molts estius de Schoenstatt.
+9	La seu es troba a la ciutat de Tranemo.
+9	Realitzà els seus estudis secundaris a l'Acadèmia de Ginebra.
+9	El districte forma part de la Divisió de Bastar.
+9	Pilar Jiménez és actualment la coordinadora de la revista.
+9	Es forma a les categories inferiors del Reial Madrid.
+9	Es considera successora de la Federació de Joves Cristians.
+9	Davant d'aquesta restricció Stravinski revisà les indicacions de tempo.
+9	Un dia, una misteriosa Assassina xinesa apareix demanant-li ajuda.
+9	L'ajuntament de Sant Feliu va erigir-hi una pedra commemorativa.
+9	Es mostren només els presidents durant la Catalunya autonòmica.
+9	Ambdós moviments estan en la clau de D major.
+9	Aprovar, si escau, la gestió de la Comissió Gestora.
+9	Després allibera Gènova, que havia estat presa pels francesos.
+9	El doctor James Bryant va ser el degà fundador.
+9	Forma part de l'Àrea estadística metropolitana de Las Cruces.
+9	Els camps per Sant Miquel esperen aigua del cel.
+9	Al cim del tossal hi ha el Castell d'Alta-riba.
+9	The Shining Ones" continua les aventures de la sèrie.
