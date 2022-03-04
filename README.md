@@ -29,4 +29,12 @@ Tokens are defined as space separated, thus a single token may consist
 of two syntactic "words" when apostrophisation or contraction takes place, 
 *del*, *that's*, *m'explico*.
 
+Note that taking a sub-token definition would require counting clitic pronouns in Spanish
+where they are written joined with the previous word, for example Catalan *dis-m'ho* vs. 
+Spanish *dímelo* vs. English *say it to me*.
+
+This only applies to those languages with contractions, e.g. English, Spanish and Catalan.
+
 **TODO:** Check if this is the definition we want.
+
+
