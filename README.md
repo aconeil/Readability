@@ -24,7 +24,7 @@ Sentences in the list are removed when:
 * If there are many template sentences such as "Venim de `Toponym`"
 * If proper names take up more than 50% of the sentence (e.g. 2/3 tokens, *Sigüenza i Guadalajara.*)
 * Names of continents and countries are allowed, states, provices, cities, rivers, and villages not.
-
+* Sentences discussing mature subject matter or with curse words
 
 ### Tokenisation
 
