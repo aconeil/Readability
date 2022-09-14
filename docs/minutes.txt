@@ -51,3 +51,6 @@ Alex. repeat scipy-optimise-tutorial for 2-dimensional normal distribution, comp
 
 ??? Alex. repeat scipy-optimise-tutorial for N-dimensional normal distribution and an arbitrary list of comparisons (each gets multiplied); maximise likelihood and compute the mean and covariance
 
+
+https://www.overleaf.com/2788279363ntccqkwxmhwt
+git clone https://git.overleaf.com/6321fae7cb70951dbe127090
