@@ -28,7 +28,7 @@ for line in sys.stdin:
 	sentence = line.strip().strip('"')
 
 	if len(sentence) == 0:
-		continue
+ 		continue
 
 	if sentence[0] == sentence[0].lower():
 		continue
@@ -46,7 +46,7 @@ for line in sys.stdin:
 	buckets[bucket].append(sentence)
 
 remaining = 0
-n_buckets = 10 
+n_buckets = 10
 for bucket in range(1, n_buckets+1):
 	buckets[bucket] = list(set(buckets[bucket]))
 	per_bucket = 1200//n_buckets
@@ -58,7 +58,7 @@ for bucket in range(1, n_buckets+1):
 		per_bucket = per_bucket - len(include[bucket])
 		if len(include[bucket]) == 100:
 			continue
-	
+
 	if per_bucket > len(buckets[bucket]):
 		per_bucket = len(buckets[bucket])
 
