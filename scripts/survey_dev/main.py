@@ -2,30 +2,71 @@ import sqlite3
 import flask
 import random
 sentences = []
-with open("fi.tsv", "r") as in_file:
-	for line in in_file:
-		(length, text)=line.split('\t')
-		sentences.append(text)
-	data = in_file.readlines()
-	data = [x.split('\t') for x in data]
+
+from xbox import run_xbox
+
+from werkzeug.middleware.proxy_fix import ProxyFix
 app = flask.Flask(__name__)
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_host=1, x_prefix=1, x_port=1)
 
 @app.route('/', methods=['GET', 'POST'])
-def index():
-	if flask.request.method == 'POST':
-		form = flask.request.form
-		if form['harder'] == '1':
-			print('Sentence 1 was harder')
-		else:
-			print('Sentence 2 was harder')
-		con = sqlite3.connect('results.db')
-		cur = con.cursor()
-		cur.execute("insert into judgements values (?, ?, ?)", (form['sentence1'], form['sentence2'], int(form['harder']) ))
-		con.commit()
-		return flask.redirect("/")
-	else:
-		mysentences = random.sample(sentences, k=2)
-		return flask.render_template('ranking.html', sentence1 = mysentences[0], sentence2 = mysentences[1])
+def cookie():
+        return flask.render_template('index.html')
+
+@app.route('/setcookie', methods = ['GET', 'POST'])
+def setcookie():
+        if flask.request.method == 'POST':
+                resp = flask.make_response(flask.render_template('language_selection.html', id = flask.request.args.get('id')))
+                resp.set_cookie("irb", "yes")
+                return resp
+        if "irb" not in flask.request.cookies:
+                return flask.redirect(flask.url_for('cookie'))
+        return resp
+
+#@app.route('/readability/getcookie')
+#def getcookie():
+#       name = flask.request.cookies.get('irb')
+#       return f'The Cookie is set.'
+
+@app.route('/lang', methods=['GET', 'POST'])
+def lang():
+#       for i in range(0,100):
+#               index()
+#       return index(id)
+#def index(id):
+        print(flask.request.headers['X-Forwarded-Prefix'])
+        id = flask.request.args.get('id')
+        if "irb" not in flask.request.cookies:
+#               continue
+#       else:
+                return flask.redirect(flask.url_for('cookie'))
+        if flask.request.method == 'POST':
+                form = flask.request.form
+                if form['harder'] == '1':
+                        # append comparison (index sentence 1, index sentence 2)
+                        print('Sentence 1 was hard')
+                else:
+                        # append comparison (index sentence 2, index sentence 3)
+                        print('Sentence 2 was harder')
+                con = sqlite3.connect('results.db')
+                cur = con.cursor()
+                                #this judgement should go into xbox df
+                cur.execute("insert into judgements values (?, ?, ?)", (form['sentence1'], form['sentence2'], int(form['harder']) ))
+                con.commit()
+#               return flask.redirect(flask.url_for('index'))
+#               print(id)
+#               return flask.redirect(flask.url_for('lang', id=id))
+        with open(("/home/aconeil/Readability/sentences/"+id+".tsv"), "r") as in_file:
+                data = in_file.readlines()
+                sentences = [x.split('\t') for x in data]
+
+                #this should be selected by xbox, currently it is taking any two random values in the data
+                mysentences = random.sample(sentences, k=2)
+                #this should be loaded in each time to update the comparisons
+                comparisons = [(1,2), (3,2), (1,4)]
+                #this needs to return updated value for covariance and mean of each sentence and sorted list?
+                run_xbox(sentences, comparisons)
+        return flask.render_template('ranking.html', sentence1 = mysentences[0][1], sentence2 = mysentences[1][1], id=id)
 
 if __name__  == "__main__":
-	app.run(debug=True)
+        app.run(debug=True)
