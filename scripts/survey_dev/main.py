@@ -1,3 +1,4 @@
+import numpy
 import sqlite3
 import flask
 import random
@@ -15,6 +16,18 @@ def cookie():
 
 @app.route('/setcookie', methods = ['GET', 'POST'])
 def setcookie():
+    #sentences equal a random list of 100 integers in the range 0-10000
+    #sentences = numpy.random.randint(0, 10000, size=100)
+    #comparisons are minimum value of i and j and maximum value of i and j for sentences at index t in the list
+    #this should come from here
+    # comparisons is a list of pairs (i, j) where i is harder than j
+    #comparisons = [
+    #    (min(i,j,key=lambda t: sentences[t]),max(i,j, key=lambda t: sentences[t]))
+    #    #size equals 8 sets us to compare only 8 sentences?
+    #    for i in numpy.random.randint(0, len(sentences), size=8)
+    #    for j in numpy.random.randint(0, len(sentences), size=8) if i != j
+    #]
+    
         if flask.request.method == 'POST':
                 resp = flask.make_response(flask.render_template('language_selection.html', id = flask.request.args.get('id')))
                 resp.set_cookie("irb", "yes")
@@ -30,16 +43,14 @@ def setcookie():
 
 @app.route('/lang', methods=['GET', 'POST'])
 def lang():
-#       for i in range(0,100):
-#               index()
-#       return index(id)
-#def index(id):
         print(flask.request.headers['X-Forwarded-Prefix'])
         id = flask.request.args.get('id')
         if "irb" not in flask.request.cookies:
 #               continue
 #       else:
                 return flask.redirect(flask.url_for('cookie'))
+        if flask.request.method == 'GET':
+
         if flask.request.method == 'POST':
                 form = flask.request.form
                 if form['harder'] == '1':
@@ -56,10 +67,13 @@ def lang():
 #               return flask.redirect(flask.url_for('index'))
 #               print(id)
 #               return flask.redirect(flask.url_for('lang', id=id))
+        #each time the page is loaded it grabs two sentences from the languages tsv file
         with open(("/home/aconeil/Readability/sentences/"+id+".tsv"), "r") as in_file:
                 data = in_file.readlines()
                 sentences = [x.split('\t') for x in data]
-
+# read in judgements from the database and produce "comparisons" datastructure
+# run xbox with sentences + comparisons, storing the result in res
+# random sample with weighted coin flip from the covariance matrix for sentence--sentence (?)
                 #this should be selected by xbox, currently it is taking any two random values in the data
                 mysentences = random.sample(sentences, k=2)
                 #this should be loaded in each time to update the comparisons

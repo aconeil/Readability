@@ -5,31 +5,32 @@ import scipy.stats
 import scipy.optimize
 
 #sentences equal a random list of 100 integers in the range 0-10000
-sentences = numpy.random.randint(0, 10000, size=100)
+#sentences = numpy.random.randint(0, 10000, size=100)
 #comparisons are minimum value of i and j and maximum value of i and j for sentences at index t in the list
 #this should come from the main.py code
 # comparisons is a list of pairs (i, j) where i is easier/? than j
-comparisons = [
-    (min(i,j,key=lambda t: sentences[t]),max(i,j, key=lambda t: sentences[t]))
+#comparisons = [
+#    (min(i,j,key=lambda t: sentences[t]),max(i,j, key=lambda t: sentences[t]))
     #size equals 8 sets us to compare only 8 sentences?
-    for i in numpy.random.randint(0, len(sentences), size=8)
-    for j in numpy.random.randint(0, len(sentences), size=8) if i != j
-]
+#    for i in numpy.random.randint(0, len(sentences), size=8)
+#    for j in numpy.random.randint(0, len(sentences), size=8) if i != j
+#]
 
 
 def run_xbox(sentences, comparisons):
-    # comparisons = list of pairs of comparisons, e.g. [(1,3), (3,4), (4, 5)] where numbers are sentence indexes
+    # comparisons = list of pairs of comparisons, e.g. [(1,3), (3,4), (4, 5), (i, j)] where numbers are sentence
+    # where i is harder than j
     # sentences = a list of sentence ids
 
 
-    print(comparisons)
+    # print(comparisons)
 
     #means are an array in the shape of length of sentences with all values set to zero
     means = numpy.zeros(len(sentences))
     #means = numpy.array([0,2,1,3])
     #value truth corresponds to list of sentences
     truth = sentences
-    print("truth: %r" % truth)
+    # print("truth: %r" % truth)
     #set covariance to an array with ones along the diag the size of the length of sentences list
     cov = numpy.identity(len(sentences))
 
@@ -119,7 +120,7 @@ def run_xbox(sentences, comparisons):
 #print(dt2 - dt)
 #
     dt = datetime.datetime.now()
-    print("starting full at %s" % dt)
+    # print("starting full at %s" % dt)
 
     res2 = scipy.optimize.minimize(
         objective,
@@ -133,5 +134,7 @@ def run_xbox(sentences, comparisons):
     )
 
     dt2 = datetime.datetime.now()
-    print("finished full at %s" % dt2)
-    print(dt2 - dt)
+    # print("finished full at %s" % dt2)
+    # print(dt2 - dt)
+    # print(res2)
+    return res2
