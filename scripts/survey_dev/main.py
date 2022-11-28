@@ -68,7 +68,7 @@ def lang():
 #               print(id)
 #               return flask.redirect(flask.url_for('lang', id=id))
         #each time the page is loaded it grabs two sentences from the languages tsv file
-        with open(("/home/aconeil/Readability/sentences/"+id+".tsv"), "r") as in_file:
+        with open((os.getcwd()+"/../../"+id+".tsv"), "r") as in_file:
                 data = in_file.readlines()
                 sentences = [x.split('\t') for x in data]
 # read in judgements from the database and produce "comparisons" datastructure
