@@ -50,7 +50,7 @@ def lang():
 #       else:
                 return flask.redirect(flask.url_for('cookie'))
         if flask.request.method == 'GET':
-
+                pass
         if flask.request.method == 'POST':
                 form = flask.request.form
                 if form['harder'] == '1':
