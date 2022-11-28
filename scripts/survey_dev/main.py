@@ -1,4 +1,5 @@
 import numpy
+import os
 import sqlite3
 import flask
 import random
@@ -43,7 +44,7 @@ def setcookie():
 
 @app.route('/lang', methods=['GET', 'POST'])
 def lang():
-        print(flask.request.headers['X-Forwarded-Prefix'])
+        #print(flask.request.headers['X-Forwarded-Prefix'])
         id = flask.request.args.get('id')
         if "irb" not in flask.request.cookies:
 #               continue
@@ -68,7 +69,7 @@ def lang():
 #               print(id)
 #               return flask.redirect(flask.url_for('lang', id=id))
         #each time the page is loaded it grabs two sentences from the languages tsv file
-        with open((os.getcwd()+"/../../"+id+".tsv"), "r") as in_file:
+        with open((os.getcwd()+"/../../sentences/"+id+".tsv"), "r") as in_file:
                 data = in_file.readlines()
                 sentences = [x.split('\t') for x in data]
 # read in judgements from the database and produce "comparisons" datastructure
