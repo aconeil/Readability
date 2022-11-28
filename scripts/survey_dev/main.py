@@ -77,9 +77,9 @@ def lang():
                 #this should be selected by xbox, currently it is taking any two random values in the data
                 mysentences = random.sample(sentences, k=2)
                 #this should be loaded in each time to update the comparisons
-                comparisons = [(1,2), (3,2), (1,4)]
+                #comparisons = [(1,2), (3,2), (1,4)]
                 #this needs to return updated value for covariance and mean of each sentence and sorted list?
-                run_xbox(sentences, comparisons)
+                #run_xbox(sentences, comparisons)
         return flask.render_template('ranking.html', sentence1 = mysentences[0][1], sentence2 = mysentences[1][1], id=id)
 
 if __name__  == "__main__":
