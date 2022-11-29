@@ -45,6 +45,7 @@ def setcookie():
 @app.route('/lang', methods=['GET', 'POST'])
 def lang():
         #print(flask.request.headers['X-Forwarded-Prefix'])
+        print(flask.request.args)
         iso = flask.request.args.get('iso')
         #print(id)
         if "irb" not in flask.request.cookies:
@@ -55,6 +56,7 @@ def lang():
          #       pass
         if flask.request.method == 'POST':
                 form = flask.request.form
+                iso = form['iso']
                 if form['harder'] == '1':
                         # append comparison (index sentence 1, index sentence 2)
                         print('Sentence 1 was hard')
@@ -78,12 +80,12 @@ def lang():
 # run xbox with sentences + comparisons, storing the result in res
 # random sample with weighted coin flip from the covariance matrix for sentence--sentence (?)
                 #this should be selected by xbox, currently it is taking any two random values in the data
-        mysentences = random.sample(sentences, k=2)
+                mysentences = random.sample(sentences, k=2)
                 #this should be loaded in each time to update the comparisons
                 #comparisons = [(1,2), (3,2), (1,4)]
                 #this needs to return updated value for covariance and mean of each sentence and sorted list?
                 #run_xbox(sentences, comparisons)
-        return flask.render_template('ranking.html', sentence1 = mysentences[0][1], sentence2 = mysentences[1][1], id=id)
+        return flask.render_template('ranking.html', sentence1 = mysentences[0][1], sentence2 = mysentences[1][1], iso=iso)
 
 if __name__  == "__main__":
         app.run(debug=True)
