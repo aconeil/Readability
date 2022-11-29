@@ -8,7 +8,7 @@ from xbox import run_xbox
 
 from werkzeug.middleware.proxy_fix import ProxyFix
 app = flask.Flask(__name__)
-app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_host=1, x_prefix=1, x_port=1)
+#app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_host=1, x_prefix=1, x_port=1)
 
 @app.route('/', methods=['GET', 'POST'])
 def cookie():
@@ -43,14 +43,15 @@ def setcookie():
 
 @app.route('/lang', methods=['GET', 'POST'])
 def lang():
-        print(flask.request.headers['X-Forwarded-Prefix'])
+        #print(flask.request.headers['X-Forwarded-Prefix'])
         id = flask.request.args.get('id')
+        #print(id)
         if "irb" not in flask.request.cookies:
 #               continue
 #       else:
                 return flask.redirect(flask.url_for('cookie'))
-        if flask.request.method == 'GET':
-                pass
+        #if flask.request.method == 'GET':
+         #       pass
         if flask.request.method == 'POST':
                 form = flask.request.form
                 if form['harder'] == '1':
@@ -75,7 +76,7 @@ def lang():
 # run xbox with sentences + comparisons, storing the result in res
 # random sample with weighted coin flip from the covariance matrix for sentence--sentence (?)
                 #this should be selected by xbox, currently it is taking any two random values in the data
-                mysentences = random.sample(sentences, k=2)
+        mysentences = random.sample(sentences, k=2)
                 #this should be loaded in each time to update the comparisons
                 #comparisons = [(1,2), (3,2), (1,4)]
                 #this needs to return updated value for covariance and mean of each sentence and sorted list?
