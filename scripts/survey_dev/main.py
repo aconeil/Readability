@@ -30,7 +30,7 @@ def setcookie():
     #]
     
         if flask.request.method == 'POST':
-                resp = flask.make_response(flask.render_template('language_selection.html', id = flask.request.args.get('id')))
+                resp = flask.make_response(flask.render_template('language_selection.html', iso = flask.request.args.get('iso')))
                 resp.set_cookie("irb", "yes")
                 return resp
         if "irb" not in flask.request.cookies:
@@ -45,7 +45,7 @@ def setcookie():
 @app.route('/lang', methods=['GET', 'POST'])
 def lang():
         #print(flask.request.headers['X-Forwarded-Prefix'])
-        id = flask.request.args.get('id')
+        iso = flask.request.args.get('iso')
         #print(id)
         if "irb" not in flask.request.cookies:
 #               continue
@@ -71,7 +71,7 @@ def lang():
 #               return flask.redirect(flask.url_for('lang', id=id))
         #each time the page is loaded it grabs two sentences from the languages tsv file
         path = os.path.dirname(os.path.abspath(__file__))
-        with open(os.path.join(path, ("../../sentences/"+id+".tsv")), "r") as in_file:
+        with open(os.path.join(path, ("../../sentences/"+iso+".tsv")), "r") as in_file:
                 data = in_file.readlines()
                 sentences = [x.split('\t') for x in data]
 # read in judgements from the database and produce "comparisons" datastructure
