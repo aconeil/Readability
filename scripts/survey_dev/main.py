@@ -41,36 +41,44 @@ def getlang():
         #    for j in numpy.random.randint(0, len(sentences), size=8) if i != j
         # ]
         path = os.path.dirname(os.path.abspath(__file__))
-        in_file = open(os.path.join(path, ("../../sentences/" + flask.request.args.get('iso') + ".tsv")), "r")
+        iso = flask.request.args.get('iso')
+        in_file = open(os.path.join(path, ("../../sentences/" + iso + ".tsv")), "r")
         data_bulk = in_file.readlines()
         data = [x.split('\t') for x in data_bulk]
-        return sentenceselect(data)
+        return sentenceselect(data, iso)
 
-def sentenceselect(data):
+def sentenceselect(data, iso):
         sentpair = random.sample(data, k=2)
         #print(sentpair)
-        return flask.render_template('ranking.html', sentence1=sentpair[0][1], sentence2=sentpair[1][1], data=data)
+        return flask.render_template('ranking.html', sentence1=sentpair[0][2], sent1id=sentpair[0][0],
+                                     sentence2=sentpair[1][2], sent2id=sentpair[1][0], data=data, iso=iso)
 @app.route('/lang', methods=['GET', 'POST'])
 def lang():
         if flask.request.method == 'POST':
                 form = flask.request.form
-                if form['easier'] == '1':
-                        # append comparison (index sentence 1, index sentence 2)
-                        print('Sentence 1 was easier')
-                else:
-                        # append comparison (index sentence 2, index sentence 3)
-                        print('Sentence 2 was easier')
-                con = sqlite3.connect('results.db')
-                cur = con.cursor()
+                if form['easier'] == 'sent1id':
                                 #this judgement should go into xbox df
-                cur.execute("insert into judgements values (?, ?, ?)", (form['sentence1'], form['sentence2'], int(form['easier']) ))
-                con.commit()
+                        # connect to database
+                        con = sqlite3.connect('results.db')
+                        # create cursor object
+                        cur = con.cursor()
+                        #append the judgement that sentence 1 is easier (i,j) where i is harder than j
+                        cur.execute("insert into judgements values (?, ?)", (("(" +form['sentence2'] + "," + form['sentence1'] + ")"), form['iso']))
+                        con.commit()
+                else:
+                        #save judgement to database as comparison
+                        con = sqlite3.connect('results.db')
+                        # create cursor object
+                        cur = con.cursor()
+                        # append the judgement that sentence 2 is easier (i,j) where i is harder than j
+                        cur.execute("insert into judgements values (?, ?)", (("(" + form['sentence1'] + "," + form['sentence2'] + ")"), form['iso']))
+                        con.commit()
                 #this should be loaded in each time to update the comparisons
                 #comparisons = [(1,2), (3,2), (1,4)]
                 #this needs to return updated value for covariance and mean of each sentence and sorted list?
                 #run_xbox(sentences, comparisons)
                 data = ast.literal_eval(form['data'])
-        return sentenceselect(data)
+        return sentenceselect(data, form['iso'])
 
 # each time the page is loaded it grabs two sentences from the language tsv file
 # read in judgements from the database and produce "comparisons" datastructure
