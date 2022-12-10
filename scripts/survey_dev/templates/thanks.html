@@ -1,0 +1,12 @@
+<html>
+	<body>
+		<form action="{{ url_for('run_xbox') }}" method="POST">
+            <link rel="stylesheet" href="{{ url_for('static', filename='my-style.css') }}">
+            <input type="hidden" name="data" value="{{ data }}"/>
+            <input type="hidden" name="iso" value="{{ iso }}"/>
+			<h1>Thank you for completing the survey!</h1>
+            <h3><i>Click submit below, you can exit the webpage once the button is green.</i></h3>
+            <input type='submit' value = 'Submit'/>
+        </form>
+	</body>
+</html>
