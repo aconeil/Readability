@@ -44,3 +44,8 @@ where they are written joined with the previous word, for example Catalan *dis-m
 Spanish *dímelo* vs. English *say it to me*.
 
 This only applies to those languages with contractions, e.g. English, Spanish and Catalan.
+
+### Adding Language Data 
+To generate additional data files for other languages the sample.py file found in `scripts/` can be used by feeding in a newline separated textfile, such as one generated using [WikiExtractor](https://github.com/apertium/WikiExtractor.git). To collect these sentences run the following command, replacing ISO with the ISO code of the language you are generating data for: python3 sample.py < WikiExtractor/wiki.txt > ISO.tsv
+
+Once these sentences are generated, they should then be reviewed to ensure they follow the guidelines outlined above. Save the excluded sentences in `sentences/exclusions/` using the sample.py code as follows: python3 sample.py old_file.tsv new_file.tsv > exclusions/ISO.tsv
