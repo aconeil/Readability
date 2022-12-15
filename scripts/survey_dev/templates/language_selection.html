@@ -1,17 +1,23 @@
 <html>
+	<head>
+		<title>Survey on Sentence Difficulty</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='my-style.css') }}">
+	</head>
 	<title>Which language will you be ranking sentences for?</title>
-        <body><p>Which language will you be ranking sentences for?</p>
+        <h1>Which language will you be ranking sentences for?</h1>
 		<form action="/getlang" method="GET">
 			<select name="iso">
-				<option value="fi">Suomi</option>
-				<option value="sw">KiSwahili</option>
-				<option value="en">English</option>
-				<option value="ca">Català</option>
-				<option value="es">Español</option>
-				<option value="ru">русский</option>
+                <option value="ca">Català</option>
+                <option value="en">English</option>
+                <option value="es">Español</option>
                 <option value="zu">isiZulu</option>
+				<option value="sw">KiSwahili</option>
+				<option value="ru">русский</option>
+                <option value="fi">Suomi</option>
 			</select>
 		<p><input type = 'submit' value = 'Submit'/></p>
                 </form>
-        </body>
+        </h1>
 </html>

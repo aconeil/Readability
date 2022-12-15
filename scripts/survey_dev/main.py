@@ -2,8 +2,7 @@ import os
 import sqlite3
 import flask
 import random
-import ast
-
+from apscheduler.schedulers.background import BackgroundScheduler
 from mle2 import mle
 from xbox import best_rankings
 
@@ -13,8 +12,11 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_host=1, x_prefix=1, x_port=1)
 app.secret_key = "8763OCA"
 
 @app.route('/', methods=['GET', 'POST'])
-#participant is shown the irb approval form
+#participant is shown the irb approval form and xbox function is set to run every 12 hours
 def cookie():
+        scheduler = BackgroundScheduler()
+        scheduler.add_job(func=run_xbox, trigger='interval', hours=12)
+        scheduler.start()
         return flask.render_template('index.html')
 
 @app.route('/setcookie', methods = ['GET', 'POST'])
@@ -50,11 +52,37 @@ def load_data(iso):
                 list = random.sample(range(1000), 200)
                 for i in range(0, 200, 2):
                         best_hundred.append([0, list[i], list[i+1]])
-        #else choose sentences pairs from database suggestions
+                con.close()
+                return best_hundred
+        #if there are more than 100 that have 4 in the first column, make a subset of those to randomize and return
         else:
                 best_hundred = cur.execute("SELECT * FROM "+iso+"nexthundred").fetchall()
-                print("fetched from database")
-        return best_hundred
+                sparse_data = []
+                ranked_data = []
+                for sentence in best_hundred:
+                        ranked_data.append(sentence)
+                        #make a list of all of the sentences that have a score of 4
+                        if sentence[0] == 4.0:
+                                sparse_data.append(sentence)
+                                print(sentence)
+                #if there are more than 101 of these sentences sample randomly from that subset
+                #figure out how to delete the randomly samples data from table
+                if len(sparse_data) > 101:
+                        list = random.sample(range(len(sparse_data)), 100)
+                        for i in range(0,100):
+                                #print(sparse_data[list[i]])
+                                best_hundred.append(sparse_data[list[i]])
+                                #cur.execute("DELETE FROM " + iso + "nexthundred WHERE ")
+                                #print(best_hundred)
+                        return best_hundred
+                #else choose the first hundred and delete those options from the database
+                else:
+                        for i in range(0,100):
+                                best_hundred.append(ranked_data[i])
+                        cur.execute("DELETE FROM " + iso + "nexthundred LIMIT 100"
+                                                           "ORDER BY score")
+                        con.close()
+                        return best_hundred
 
 @app.route('/lang', methods=['GET', 'POST'])
 #this function adds the judgements to the proper table in the database each time
@@ -72,6 +100,7 @@ def lang():
                         #append the judgement that sentence 1 is easier (i,j) where i is harder than j
                         cur.execute("INSERT INTO "+iso+"judgements VALUES (?);", [','.join(judgement)])
                         con.commit()
+                        con.close()
                 else:
                         #save judgement to database as comparison
                         con = sqlite3.connect('results.db')
@@ -81,10 +110,10 @@ def lang():
                         judgement = (form['sentence1'], form['sentence2'])
                         cur.execute("INSERT INTO "+iso+"judgements VALUES (?);", [','.join(judgement)])
                         con.commit()
+                        con.close()
         else:
                 iso = flask.request.args.get('iso')
         ranking_list = flask.session["ranking"]
-        #once user gets through sentences, show thanks screen
         if not ranking_list:
                 return flask.render_template('thanks.html', iso=iso, data=load_sentences(iso))
         data = load_sentences(iso)
@@ -92,42 +121,54 @@ def lang():
         flask.session["ranking"] = ranking_list
         score, idone, idtwo = ranking[0], ranking[1], ranking[2]
         # render ranking template using the selected ids
-        return flask.render_template('ranking.html', sentence1=data[idone][2], sent1id=data[idone][0],
+        return flask.render_template(iso+'ranking.html', sentence1=data[idone][2], sent1id=data[idone][0],
                               sentence2=data[idtwo][2], sent2id=data[idtwo][0], iso=iso)
 
-@app.route('/run_xbox', methods=['GET', 'POST'])
+
+#@app.route('/run_xbox', methods=['GET', 'POST'])
 def run_xbox():
-        form = flask.request.form
-        data = ast.literal_eval(form['data'])
-        iso = form['iso']
-        comparisons = []
-        sentences = []
-        #make a list of the sentences from data
-        for point in data:
-                sentences.append(point[2])
-        con = sqlite3.connect('results.db')
-        cur = con.cursor()
+        # form = flask.request.form
+        # data = ast.literal_eval(form['data'])
+        # iso = form['iso']
+        # comparisons = []
+        # sentences = []
+        # #make a list of the sentences from data
+        # for point in data:
+        #         sentences.append(point[2])
+        iso_codes = ["ca", "fi", "sw", "ru", "en", "es"]
         #open the language's database and get all the information
-        raw_comparisons = cur.execute("SELECT comparison FROM "+iso+"judgements").fetchall()
-        #append the comparisons from the file into list comparisons
-        for comparison in raw_comparisons:
-                csv_values = comparison[0]
-                values = csv_values.split(",")
-                values[0], values[1] = int(values[0]), int(values[1])
-                comparisons.append(values)
-        #pass sentences and comparisons to mle2 code to get means and covariance matrix
-        m, c = mle(comparisons, sentences)
-        print("finished mle part")
-        #get sorted list of best sentences to compare
-        xbox_choices = best_rankings(m, c)
-        print("finished xbox part")
-        #save this in db to open at beginning of next session
-        best_hundred = xbox_choices[:99]
-        #print(best_hundred)
-        for ranking in best_hundred:
-                cur.execute("INSERT INTO "+iso+"nexthundred VALUES (?, ?, ?);", (ranking[0], ranking[1], ranking[2]))
-                con.commit()
-        return flask.render_template("index.html")
+        for iso in iso_codes:
+                con = sqlite3.connect('results.db')
+                cur = con.cursor()
+                print("starting xbox for", iso)
+                comparisons = []
+                sentences = []
+                #fetch all of the comparisons for one of the iso codes
+                raw_comparisons = cur.execute("SELECT comparison FROM "+iso+"judgements").fetchall()
+                #append the comparisons from the file into list comparisons
+                sentence_data = load_sentences(iso)
+                for sentence in sentence_data:
+                        sentences.append(sentence[2])
+                for comparison in raw_comparisons:
+                        csv_values = comparison[0]
+                        values = csv_values.split(",")
+                        values[0], values[1] = int(values[0]), int(values[1])
+                        comparisons.append(values)
+                #pass sentences and comparisons to mle2 code to get means and covariance matrix
+                m, c = mle(comparisons, sentences)
+                print("finished mle part for", iso)
+                #get sorted list of best sentences to compare
+                xbox_choices = best_rankings(m, c)
+                print("finished xbox part for", iso)
+                xbox_choices_sample = xbox_choices[:5000]
+                #save this in db to open at beginning of next session
+                #print(best_hundred)
+                for ranking in xbox_choices_sample:
+                        cur.execute("DELETE FROM "+iso+"nexthundred")
+                        cur.execute("INSERT INTO "+iso+"nexthundred VALUES (?, ?, ?);", (ranking[0], ranking[1], ranking[2]))
+                        con.commit()
+                con.close()
+        return
 
 if __name__  == "__main__":
         app.run(debug=True)

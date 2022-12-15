@@ -9,7 +9,7 @@
 		<form action="{{ url_for('lang') }}" method="POST">
 			<input type="hidden" name="data" value="{{ data }}"/>
             <input type="hidden" name="iso" value="{{ iso }}"/>
-			<label>Quina frase és més fàcil entendre?</label>
+            <h1>Quina frase és més fàcil entendre?</h1>
 			<div class="form-check">
 				<input class="form-check-input" type="radio" name="easier" value="{{ sent1id }}" id="sentence1">
 				<input type="hidden" name="sentence1" value="{{ sent1id }}">

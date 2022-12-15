@@ -1,6 +1,33 @@
-#judgement {
-padding: 10px;
+h1 {
+  font-family: Georgia;
+  font-size: 150%;
 }
+h2 {
+  margin: 10px;
+}
+p {
+  font-family: Georgia;
+  font-size: 85%;
+}
+ul {
+  font-family: Georgia;
+  font-size: 85%;
+}
+label {
+  font-family: Georgia;
+  font-size: 130%;
+  margin: 10px;
+}
+input{
+  margin: 10px;
+  font-family: Georgia;
+}
+select {
+  font-family: Georgia;
+  margin: 5px;
+  font-size: 110%;
+}
+
 input[type=submit]:focus {
-background-color: green;
+background-color: black;
 }
