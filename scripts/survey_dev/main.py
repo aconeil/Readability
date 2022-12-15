@@ -79,8 +79,7 @@ def load_data(iso):
                 else:
                         for i in range(0,100):
                                 best_hundred.append(ranked_data[i])
-                        cur.execute("DELETE FROM " + iso + "nexthundred LIMIT 100"
-                                                           "ORDER BY score")
+                        cur.execute("DELETE FROM " + iso + "nexthundred ORDER BY score LIMIT 100")
                         con.close()
                         return best_hundred
 
