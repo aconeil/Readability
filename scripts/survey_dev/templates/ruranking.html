@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Survey on Sentence Difficulty</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='my-style.css') }}">
+	</head>
+	<body>
+		<form action="{{ url_for('lang') }}" method="POST">
+			<input type="hidden" name="data" value="{{ data }}"/>
+            <input type="hidden" name="iso" value="{{ iso }}"/>
+			<label>Какое предложение легче понять?</label>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="easier" value="{{ sent1id }}" id="sentence1">
+				<input type="hidden" name="sentence1" value="{{ sent1id }}">
+				<label class="form-check-label" for="sentence1">
+					{{ sentence1 }}
+				</label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="easier" value="{{ sent2id }}" id="sentence2" checked>
+				<input type="hidden" name="sentence2" value="{{ sent2id }}">
+				<label class="form-check-label" for="sentence2">
+					{{ sentence2 }}
+				</label>
+			</div>
+			<input type="submit" name="next" value="Продолжать">
+		</form>
+
+	</body>
+
+</html>
