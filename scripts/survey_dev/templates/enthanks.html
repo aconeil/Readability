@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Survey on Sentence Difficulty</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='my-style.css') }}">
+	</head>
+	<body>
+		<form action="/lang" method="POST">
+            <link rel="stylesheet" href="{{ url_for('static', filename='my-style.css') }}">
+            <input type="hidden" name="data" value="{{ data }}"/>
+            <input type="hidden" name="iso" value="{{ iso }}"/>
+			<h1>Thank you for completing the survey!</h1>
+            <h3><i>You may now exit the survey.</i></h3>
+        </form>
+	</body>
+</html>
