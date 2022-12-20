@@ -34,7 +34,16 @@ def setcookie():
 def getlang():
         iso = flask.request.args.get('iso')
         flask.session["ranking"] = load_data(iso)
-        return flask.redirect(flask.url_for('lang', iso=iso))
+        # flask.render_template("level.html")
+        # level = flask.request.args.get('level')
+        return flask.render_template("level.html", iso=iso)
+
+@app.route('/getlevel')
+def getlevel():
+        level = flask.request.args.get('level')
+        iso = flask.request.args.get('iso')
+        print("get level", level, iso)
+        return flask.redirect(flask.url_for('lang', iso=iso, level=level))
 
 def load_sentences(iso):
         path = os.path.dirname(os.path.abspath(__file__))
@@ -89,15 +98,17 @@ def lang():
         if flask.request.method == 'POST':
                 form = flask.request.form
                 iso = form['iso']
+                level = form['level']
                 if form['easier'] == 'sent1id':
                         judgement = (form['sentence2'], form['sentence1'])
-                                #this judgement should go into xbox df
+                        judgement = ','.join(judgement)
+                        print(judgement, level)
                         # connect to database
                         con = sqlite3.connect('results.db')
                         # create cursor object
                         cur = con.cursor()
                         #append the judgement that sentence 1 is easier (i,j) where i is harder than j
-                        cur.execute("INSERT INTO "+iso+"judgements VALUES (?);", [','.join(judgement)])
+                        cur.execute("INSERT INTO "+iso+"judgements VALUES (?, ?);", (judgement, level))
                         con.commit()
                         con.close()
                 else:
@@ -107,21 +118,24 @@ def lang():
                         cur = con.cursor()
                         # append the judgement that sentence 2 is easier (i,j) where i is harder than j
                         judgement = (form['sentence1'], form['sentence2'])
-                        cur.execute("INSERT INTO "+iso+"judgements VALUES (?);", [','.join(judgement)])
+                        judgement = ','.join(judgement)
+                        print(judgement, level)
+                        cur.execute("INSERT INTO "+iso+"judgements VALUES (?, ?);", (judgement, level))
                         con.commit()
                         con.close()
         else:
                 iso = flask.request.args.get('iso')
+                level = flask.request.args.get('level')
         ranking_list = flask.session["ranking"]
         if not ranking_list:
-                return flask.render_template('thanks.html', iso=iso, data=load_sentences(iso))
+                return flask.render_template(iso+'thanks.html', iso=iso, data=load_sentences(iso))
         data = load_sentences(iso)
         ranking = ranking_list.pop()
         flask.session["ranking"] = ranking_list
         score, idone, idtwo = ranking[0], ranking[1], ranking[2]
         # render ranking template using the selected ids
         return flask.render_template(iso+'ranking.html', sentence1=data[idone][2], sent1id=data[idone][0],
-                              sentence2=data[idtwo][2], sent2id=data[idtwo][0], iso=iso)
+                              sentence2=data[idtwo][2], sent2id=data[idtwo][0], iso=iso, level=level)
 
 
 #@app.route('/run_xbox', methods=['GET', 'POST'])
