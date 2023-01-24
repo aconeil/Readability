@@ -126,6 +126,7 @@ def lang():
         else:
                 iso = flask.request.args.get('iso')
                 level = flask.request.args.get('level')
+                print("lang loop", iso, level)
         ranking_list = flask.session["ranking"]
         if not ranking_list:
                 return flask.render_template(iso+'thanks.html', iso=iso, data=load_sentences(iso))
@@ -133,6 +134,7 @@ def lang():
         ranking = ranking_list.pop()
         flask.session["ranking"] = ranking_list
         score, idone, idtwo = ranking[0], ranking[1], ranking[2]
+        print("right before the return", score, idone, idtwo)
         # render ranking template using the selected ids
         return flask.render_template(iso+'ranking.html', sentence1=data[idone][2], sent1id=data[idone][0],
                               sentence2=data[idtwo][2], sent2id=data[idtwo][0], iso=iso, level=level)
