@@ -34,8 +34,6 @@ def setcookie():
 def getlang():
         iso = flask.request.args.get('iso')
         flask.session["ranking"] = load_data(iso)
-        # flask.render_template("level.html")
-        # level = flask.request.args.get('level')
         return flask.render_template("level.html", iso=iso)
 
 @app.route('/getlevel')
@@ -73,10 +71,15 @@ def load_data(iso):
                         #make a list of all of the sentences that have a score of 4
                         if sentence[0] == 4.0:
                                 sparse_data.append(sentence)
-                                print(sentence)
-                #if there are more than 101 of these sentences sample randomly from that subset
+                #if there are more than 100 sentences ranked as 4, sample randomly to find next ones
                 #figure out how to delete the randomly samples data from table
-                if len(sparse_data) > 101:
+                if len(ranked_data) < 101:
+                        list = random.sample(range(1000), 200)
+                                for i in range(0, 200, 2):
+                                    best_hundred.append([0, list[i], list[i+1]])
+                                con.close()
+                                return best_hundred
+                elif len(sparse_data) > 101:
                         list = random.sample(range(len(sparse_data)), 100)
                         for i in range(0,100):
                                 #print(sparse_data[list[i]])
@@ -102,7 +105,6 @@ def lang():
                 if form['easier'] == 'sent1id':
                         judgement = (form['sentence2'], form['sentence1'])
                         judgement = ','.join(judgement)
-                        print(judgement, level)
                         # connect to database
                         con = sqlite3.connect('results.db')
                         # create cursor object
@@ -126,7 +128,6 @@ def lang():
         else:
                 iso = flask.request.args.get('iso')
                 level = flask.request.args.get('level')
-                print("lang loop", iso, level)
         ranking_list = flask.session["ranking"]
         if not ranking_list:
                 return flask.render_template(iso+'thanks.html', iso=iso, data=load_sentences(iso))
@@ -134,7 +135,6 @@ def lang():
         ranking = ranking_list.pop()
         flask.session["ranking"] = ranking_list
         score, idone, idtwo = ranking[0], ranking[1], ranking[2]
-        print("right before the return", score, idone, idtwo)
         # render ranking template using the selected ids
         return flask.render_template(iso+'ranking.html', sentence1=data[idone][2], sent1id=data[idone][0],
                               sentence2=data[idtwo][2], sent2id=data[idtwo][0], iso=iso, level=level)
