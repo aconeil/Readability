@@ -78,10 +78,10 @@ def load_data(iso):
                 #if there are less than 101 items in the list ranked data, sample randomly to create the list best_hundred
                 if len(ranked_data) < 101:
                         list = random.sample(range(1000), 200)
-                                for i in range(0, 200, 2):
-                                    best_hundred.append([0, list[i], list[i+1]])
-                                con.close()
-                                return best_hundred
+                        for i in range(0, 200, 2):
+                            best_hundred.append([0, list[i], list[i+1]])
+                        con.close()
+                        return best_hundred
                 #or is there are more than 100 values in sparse data randomly sample 100 of those
                 elif len(sparse_data) > 100:
                         list = random.sample(range(len(sparse_data)), 100)
