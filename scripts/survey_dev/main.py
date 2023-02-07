@@ -63,23 +63,27 @@ def load_data(iso):
                 return best_hundred
         #if there are more than 100 that have 4 in the first column, make a subset of those to randomize and return
         else:
-                best_hundred = cur.execute("SELECT * FROM "+iso+"nexthundred").fetchall()
+                #take results from the nexthundred table for the language
+                nexthundred = cur.execute("SELECT * FROM "+iso+"nexthundred").fetchall()
                 sparse_data = []
                 ranked_data = []
-                for sentence in best_hundred:
+                #go through the list of best_hundred sentences and make a list of the ranked data
+                for sentence in nexthundred:
                         ranked_data.append(sentence)
-                        #make a list of all of the sentences that have a score of 4
+                        #make a list of all of the sentences that have a score of 4 and append to sparse data list
                         if sentence[0] == 4.0:
                                 sparse_data.append(sentence)
                 #if there are more than 100 sentences ranked as 4, sample randomly to find next ones
                 #figure out how to delete the randomly samples data from table
+                #if there are less than 101 items in the list ranked data, sample randomly to create the list best_hundred
                 if len(ranked_data) < 101:
                         list = random.sample(range(1000), 200)
                                 for i in range(0, 200, 2):
                                     best_hundred.append([0, list[i], list[i+1]])
                                 con.close()
                                 return best_hundred
-                elif len(sparse_data) > 101:
+                #or is there are more than 100 values in sparse data randomly sample 100 of those
+                elif len(sparse_data) > 100:
                         list = random.sample(range(len(sparse_data)), 100)
                         for i in range(0,100):
                                 #print(sparse_data[list[i]])
