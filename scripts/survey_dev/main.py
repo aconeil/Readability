@@ -141,7 +141,7 @@ def lang():
         score, idone, idtwo = ranking[0], ranking[1], ranking[2]
         # render ranking template using the selected ids
         return flask.render_template(iso+'ranking.html', sentence1=data[idone][2], sent1id=data[idone][0],
-                              sentence2=data[idtwo][2], sent2id=data[idtwo][0], iso=iso, level=level)
+                              sentence2=data[idtwo][2], sent2id=data[idtwo][0], iso=iso, level=level, len=(100-len(ranking_list)))
 
 
 #@app.route('/run_xbox', methods=['GET', 'POST'])

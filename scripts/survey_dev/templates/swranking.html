@@ -9,6 +9,7 @@
 		<form action="{{ url_for('lang') }}" method="POST">
 			<input type="hidden" name="data" value="{{ data }}"/>
             <input type="hidden" name="iso" value="{{ iso }}"/>
+            <input type="hidden" name="len" value="{{ len }}"/>
             <input type="hidden" name="level" value="{{  level }}"/>
 			<h1>Sentensi ipi ni rahisi zaidi?</h1>
 			<div class="form-check">
@@ -26,6 +27,7 @@
 				</label>
 			</div>
 			<input type="submit" name="next" value="Endelea">
+            <h3>{{ len }}/100</h3>
 		</form>
 
 	</body>
