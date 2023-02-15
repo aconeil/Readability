@@ -1,4 +1,0 @@
-This is sentence 1.
-This is sentence 2.
-This is sentence 3.
-This is sentence 4.
