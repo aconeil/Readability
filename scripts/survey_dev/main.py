@@ -2,6 +2,8 @@ import os
 import sqlite3
 import flask
 import random
+import time
+import uuid
 from apscheduler.schedulers.background import BackgroundScheduler
 from mle2 import mle
 from xbox import best_rankings
@@ -34,13 +36,13 @@ def setcookie():
 def getlang():
         iso = flask.request.args.get('iso')
         flask.session["ranking"] = load_data(iso)
+        flask.session["uid"] = uuid.uuid4()
         return flask.render_template("level.html", iso=iso)
 
 @app.route('/getlevel')
 def getlevel():
         level = flask.request.args.get('level')
         iso = flask.request.args.get('iso')
-        print("get level", level, iso)
         return flask.redirect(flask.url_for('lang', iso=iso, level=level))
 
 def load_sentences(iso):
@@ -106,29 +108,22 @@ def lang():
                 form = flask.request.form
                 iso = form['iso']
                 level = form['level']
+                con = sqlite3.connect('results.db')
+                cur = con.cursor()
+                current_time = time.time()
+                uid = flask.session["uid"].hex
                 if form['easier'] == 'sent1id':
                         judgement = (form['sentence2'], form['sentence1'])
                         judgement = ','.join(judgement)
-                        # connect to database
-                        con = sqlite3.connect('results.db')
-                        # create cursor object
-                        cur = con.cursor()
                         #append the judgement that sentence 1 is easier (i,j) where i is harder than j
-                        cur.execute("INSERT INTO "+iso+"judgements VALUES (?, ?);", (judgement, level))
-                        con.commit()
-                        con.close()
+                        cur.execute("INSERT INTO "+iso+"judgements VALUES (?, ?, ?, ?);", (judgement, level, current_time, uid))
                 else:
-                        #save judgement to database as comparison
-                        con = sqlite3.connect('results.db')
-                        # create cursor object
-                        cur = con.cursor()
-                        # append the judgement that sentence 2 is easier (i,j) where i is harder than j
                         judgement = (form['sentence1'], form['sentence2'])
                         judgement = ','.join(judgement)
                         print(judgement, level)
-                        cur.execute("INSERT INTO "+iso+"judgements VALUES (?, ?);", (judgement, level))
-                        con.commit()
-                        con.close()
+                        cur.execute("INSERT INTO "+iso+"judgements VALUES (?, ?, ?, ?);", (judgement, level, current_time, uid))
+                con.commit()
+                con.close()
         else:
                 iso = flask.request.args.get('iso')
                 level = flask.request.args.get('level')
@@ -143,23 +138,12 @@ def lang():
         return flask.render_template(iso+'ranking.html', sentence1=data[idone][2], sent1id=data[idone][0],
                               sentence2=data[idtwo][2], sent2id=data[idtwo][0], iso=iso, level=level, len=(100-len(ranking_list)))
 
-
-#@app.route('/run_xbox', methods=['GET', 'POST'])
 def run_xbox():
-        # form = flask.request.form
-        # data = ast.literal_eval(form['data'])
-        # iso = form['iso']
-        # comparisons = []
-        # sentences = []
-        # #make a list of the sentences from data
-        # for point in data:
-        #         sentences.append(point[2])
         iso_codes = ["ca", "fi", "sw", "ru", "en", "es"]
         #open the language's database and get all the information
         for iso in iso_codes:
                 con = sqlite3.connect('results.db')
                 cur = con.cursor()
-                print("starting xbox for", iso)
                 comparisons = []
                 sentences = []
                 #fetch all of the comparisons for one of the iso codes

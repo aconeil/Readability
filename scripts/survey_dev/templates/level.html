@@ -7,18 +7,18 @@
 	</head>
 	<title>Are you a native speaker of the language?</title>
         <h1>Are you a native speaker of the language?</h1>
-		<form action="/getlevel" method="GET">
+		<form action="/readability/getlevel" method="GET">
             <input type="hidden" name="iso" value="{{ iso }}"/>
             <div class="form-check">
 				<input class="form-check-input" type="radio" name="level" value="l1" id="native_speaker">
-				<input type="hidden" name="level" value="l1">
-				<label class="form-check-label" for="sentence1">
+<!--				<input type="hidden" name="level" value="l1">-->
+				<label class="form-check-label" for="l1">
 					Yes
 				</label>
 			</div>
             <div class="form-check">
 				<input class="form-check-input" type="radio" name="level" value="l2" id="nonnative_speaker">
-				<input type="hidden" name="level" value="l1">
+<!--				<input type="hidden" name="level" value="l2">-->
 				<label class="form-check-label" for="l2">
 					No
 				</label>
