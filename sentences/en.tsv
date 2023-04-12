@@ -24,14 +24,14 @@
 23	1	What!
 24	1	Incorrectly?
 25	1	Drink!
-26	1	Mustn't.
+26	1	Thanks!
 27	1	Daydreaming?
 28	1	Correct?
 29	1	Chatting?
 30	1	No?
 31	1	Colonel!
 32	1	Soon.
-33	1	Now
+33	1	Now.
 34	1	Beautiful.
 35	1	Alarm!
 36	1	Simple?
@@ -48,7 +48,7 @@
 47	1	Toast.
 48	1	Fool!
 49	1	Blackmail?
-50	1	Bureau.
+50	1	Ouch!
 51	1	Incredible!
 52	1	Liar!
 53	1	Yeah...
@@ -57,10 +57,10 @@
 56	1	Leave!
 57	1	Irresponsible!
 58	1	True.
-59	1	Welcome
+59	1	Welcome.
 60	1	Move!
 61	1	Doctor?
-62	1	Come
+62	1	Come.
 63	1	Right-o!
 64	1	Hardly.
 65	1	Good-bye.
@@ -76,18 +76,18 @@
 75	1	Over.
 76	1	Unbelievable!
 77	1	Again?
-78	1	Forgot.
-79	1	Alphabetical.
+78	1	Gladly.
+79	1	Mm-hm.
 80	1	Truly.
-81	1	End
+81	1	Go!
 82	1	Precisely.
-83	1	Anonymous.
+83	1	Absolutely.
 84	1	Discover!
 85	1	Uh-huh.
 86	1	Understand?
-87	1	Ouch!
+87	1	Sure!
 88	1	Upstairs?
-89	1	Wishes.
+89	1	Don't!
 90	1	Bailiffs!
 91	1	Perhaps.
 92	1	Widower!
@@ -96,10 +96,10 @@
 95	1	Yeah?
 96	1	Freeze!
 97	1	Murdered.
-98	1	Photography.
+98	1	Tonight.
 99	1	Water!
 100	2	Almost ready?
-101	2	The pistol.
+101	2	Someone's coming.
 102	2	Everyone out!
 103	2	She's pretty.
 104	2	Forgive me...
@@ -119,18 +119,18 @@
 118	2	A symphony.
 119	2	Hey, stop!
 120	2	At last!
-121	2	Get in
+121	2	Get in.
 122	2	No way!
 123	2	Too far.
 124	2	Help me?
-125	2	Drink up
+125	2	Drink up.
 126	2	She's hot!
 127	2	Payday, eh?
 128	2	Sure was.
 129	2	See what?
 130	2	Wiped out.
 131	2	Quit yapping!
-132	2	You haven't...?
+132	2	You haven't?
 133	2	I did.
 134	2	Now, mister.
 135	2	Me, honey?
@@ -141,7 +141,7 @@
 140	2	Righteous anger.
 141	2	It's broken.
 142	2	Use it!
-143	2	The prosecution.
+143	2	I'm thirsty.
 144	2	Quiet down!
 145	2	Follow me.
 146	2	Not now!
@@ -160,7 +160,7 @@
 159	2	It's humiliating!
 160	2	You're lovely.
 161	2	Listen carefully.
-162	2	Not yet
+162	2	Not yet.
 163	2	Utterly charming.
 164	2	Erase that.
 165	2	He's burnt
@@ -177,14 +177,14 @@
 176	2	Oh, auntie.
 177	2	Sleeps dressed.
 178	2	The cot?
-179	2	God damn
+179	2	For what?
 180	2	It's nothing.
 181	2	Invisible ink?
 182	2	Beautiful, everyone.
 183	2	Think carefully!
 184	2	Hey, checkmate.
 185	2	It's delicious.
-186	2	About anarchism
+186	2	What happened?
 187	2	Sleep well.
 188	2	Nothing yet.
 189	2	It depends.
@@ -256,8 +256,8 @@
 255	3	Oh, that's good.
 256	3	Three players competed.
 257	3	Internet penetration blossomed.
-258	3	This is trouble
-259	3	Good, everyone's here
+258	3	This is trouble.
+259	3	Good, everyone's here.
 260	3	He teaches woodcarving.
 261	3	Her manipulation failed.
 262	3	Compare higher-order predicate.
@@ -270,7 +270,7 @@
 269	3	Let's get it.
 270	3	Oh, don't worry.
 271	3	They were hunter-gatherers.
-272	3	With sixteen illustrations.
+272	3	What's the use.
 273	3	He had cancer.
 274	3	It was funny.
 275	3	Clean the kitchen.
@@ -283,7 +283,7 @@
 282	3	Haste makes waste.
 283	3	I enjoyed it.
 284	3	Let's see it!
-285	3	Average hourly earnings.
+285	3	Gotta change it.
 286	3	Giraffes are vegetarians.
 287	3	I'm a doctor!
 288	3	Come over here.
@@ -299,7 +299,7 @@
 298	3	It's really true.
 299	3	You're very pretty.
 300	4	The market has fragmented.
-301	4	It was to long.
+301	4	She is with child.
 302	4	It made little difference.
 303	4	These planes lacked cannon.
 304	4	This species is univoltine.
@@ -326,7 +326,7 @@
 325	4	Four thousand were arrested.
 326	4	So I said, why?
 327	4	In the living corpse!
-328	4	Governor of different parties.
+328	4	Fingers are turning blue!
 329	4	Her skirt was raised.
 330	4	My foot got caught.
 331	4	However, she was acquitted.
@@ -388,7 +388,7 @@
 387	4	He was released unharmed.
 388	4	The agreement was reached.
 389	4	Consider though, the themes.
-390	4	Let's stop it there
+390	4	Let's stop it there.
 391	4	Did you make contact?
 392	4	I hated that cover.
 393	4	I don't want it.
@@ -641,7 +641,7 @@
 640	7	A company's growth rate is an estimate.
 641	7	Johnny drives off to search for her.
 642	7	She spoke with a cool foreign accent.
-643	7	Let me know whenever you are struggling
+643	7	Let me know whenever you are struggling.
 644	7	A legislative committee found the governor innocent.
 645	7	Members are closely related to one another.
 646	7	The abdomen is orange towards the rear.
@@ -837,7 +837,7 @@
 836	9	Ordinarily, unilateral mistake does not make a contract void.
 837	9	Note that the density is outside the gradient operator.
 838	9	An umpire would judge the legality of each score.
-839	9	It consists primarily of Maple, Beech and Hemlock trees.
+839	9	You know how, mountain climbers are afraid of thunder?
 840	9	Recently several factors have rendered biosecurity issues more severe.
 841	9	They have also organised a number of related conventions.
 842	9	How about a break from all this constant drama?
@@ -853,7 +853,7 @@
 852	9	There are umbilical cord clamps which incorporate a knife.
 853	9	However, the schedule was not optimized for commuter usage.
 854	9	A revised edition included a chapter on computer techniques.
-855	9	The fund raising effort has continued in succeeding years.
+855	9	I know I can count on all of you.
 856	9	Some of their liquidity was even deposited in cash.
 857	9	The river then turns southwest, flowing through irrigated farmland.
 858	9	The railroad allowed tourists easy access to the area.
@@ -930,7 +930,7 @@
 929	10	He also ran a store and gristmill in the area.
 930	10	Large portions of the tunnel have been lined with concrete.
 931	10	This file is also referred to as a source file.
-932	10	Defunct airlines are listed instead at list of defunct airlines.
+932	10	It's been a long time since I heard an accordion.
 933	10	General-purpose maps provide many types of information on one map.
 934	10	This was the first competition between cloned and natural-born mules.
 935	10	They've also written a few songs concerning then-current social issues.
@@ -977,7 +977,7 @@
 976	10	These definitions differ only at signed powers of the radix.
 977	10	There are two main classes of chemoreceptor: direct and distance.
 978	10	Some names may be listed in more than one city.
-979	10	The management consultant was on secondment to the struggling start-up
+979	10	The management consultant was on secondment to the struggling start-up.
 980	10	The marriage produced two children, and also ended in divorce.
 981	10	He later withdrew from this election, due to "unforeseen circumstances".
 982	10	Her earthly lover was not fooled and recognized her immediately.
@@ -998,3 +998,4 @@
 997	10	The unnavigable river is used for power production and irrigation.
 998	10	In these runaways' attempts to escape recapture, several were killed.
 999	10	He is now working for the club as a consultant.
+
