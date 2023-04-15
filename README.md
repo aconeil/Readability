@@ -48,9 +48,10 @@ This only applies to those languages with contractions, e.g. English, Spanish an
 ### Sentence Data Sources
 
 Sentence data has been taken from:
-*[Wikimedia Downloads](https://dumps.wikimedia.org/backup-index.html)
-*[OpenSubtitles](http://www.opensubtitles.org/)
-*[The QCRI Educational Domain (QED) Corpus](https://alt.qcri.org/resources/qedcorpus/)
+
+* [Wikimedia Downloads](https://dumps.wikimedia.org/backup-index.html)
+* [OpenSubtitles](http://www.opensubtitles.org/)
+* [The QCRI Educational Domain (QED) Corpus](https://alt.qcri.org/resources/qedcorpus/)
 
 
 ### Adding Language Data 
