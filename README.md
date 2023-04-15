@@ -45,6 +45,14 @@ Spanish *dímelo* vs. English *say it to me*.
 
 This only applies to those languages with contractions, e.g. English, Spanish and Catalan.
 
+### Sentence Data Sources
+
+Sentence data has been taken from:
+*[Wikimedia Downloads](https://dumps.wikimedia.org/backup-index.html)
+*[OpenSubtitles](http://www.opensubtitles.org/)
+*[The QCRI Educational Domain (QED) Corpus](https://alt.qcri.org/resources/qedcorpus/)
+
+
 ### Adding Language Data 
 To generate additional data files for other languages the sample.py file found in `scripts/` can be used by feeding in a newline separated textfile, such as one generated using [WikiExtractor](https://github.com/apertium/WikiExtractor.git). To collect these sentences run the following command, replacing ISO with the ISO code of the language you are generating data for: `python3 sample.py < WikiExtractor/wiki.txt > ISO.tsv`
 
