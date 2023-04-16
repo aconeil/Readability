@@ -32,7 +32,9 @@ Sentences in the list are removed when:
 * If proper names take up more than 50% of the sentence (e.g. 2/3 tokens, *Sigüenza i Guadalajara.*)
 * Names of continents and countries are allowed, states, provices, cities, rivers, and villages not.
   * When the name is preceeded by the specificed place, such as "River `Name`" or "Lake `Name`" it remains in the corpus
-* Sentences discussing mature subject matter or with curse words
+* The sentence discusses mature subject matter or uses curse words
+* One of the tokens is a link
+* The sentence is an article title
 
 ### Tokenisation
 
