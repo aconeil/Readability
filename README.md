@@ -35,6 +35,8 @@ Sentences in the list are removed when:
 * The sentence discusses mature subject matter or uses curse words
 * One of the tokens is a link
 * The sentence is an article title
+* Non-standard punctuation may contribute to the sentence's difficulty
+  * Such as lack of quotation marking *Mitä te sanotte Voiko niitä tarjota lehteen?*
 
 ### Tokenisation
 
