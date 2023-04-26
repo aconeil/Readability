@@ -73,6 +73,8 @@ and are not in the exclusions file, you can do the following:
 ```
 cat sentences/ru.tsv | cut -f2- > /tmp/ru.tsv
 cat /tmp/ru.subs | python3 scripts/sample.py /tmp/ru.tsv sentences/exclusions/ru.tsv >/tmp/newru.tsv
+cat /tmp/newru.tsv | grep -v '\*' | cat -n | sed 's/^ *//g' > sentences/ru.tsv
+diff -Naur /tmp/ru.tsv /tmp/newru.tsv | grep '^-' | sed 's/^-//g' >> sentences/exclusions/ru.tsv
 ```
 
 This will give a file where there are new sentences that are marked
