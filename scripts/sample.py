@@ -2,37 +2,64 @@
 	Program to extract a bucketed sentences from a list of sentences
 	with exclusions
 """
-import sys, random, re
+import sys, random, re, os
 
 # Make sure we get the same results every time
 random.seed(42)
 buckets = {} # Length based buckets
 include = {} 
 exclude = []
+seen = []
+
+buckets = {i: [] for i in range(1, 11)}
+
+alphabet = {}
+alphabet['en'] = 'abcdefghijklmnopqrstuvwxyz\''
+alphabet['es'] = 'aábcdeéfghiíjklmnñoópqrstuúüvwxyz'
+alphabet['ca'] = 'aáàbcçdeéèfghiíïjklmnoóòpqrstuúüvwxyz\'·-'
+alphabet['fi'] = 'aäbcdefghijklmnoöpqrstuvxyz'
+alphabet['sw'] = 'abcdefghijklmnopqrstuvwxyz\''
+alphabet['zu'] = 'abcdefghijklmnopqrstuvwxyz\''
+alphabet['ru'] = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
+
+
+def letters(s):
+	return ''.join([c for c in s if c in alphabet[locale]]).lower()
+
+locale = '_'
 
 # Require three command line arguments:
 # python3 sample.py new_file.tsv old_file.tsv > exclusions.tsv
 if len(sys.argv) == 3:
+
+	locale = os.path.basename(sys.argv[1]).split('.')[0]
+
 	# Create list of sentences that have already been checked
 	# and determined as invalid
 	for line in open(sys.argv[2]).read().split('\n'):
 		if line.strip() == '':
 			continue
 		(k, v) = line.split('\t')
-		exclude.append(v)
+		exclude.append(letters(v))
 
 	# Create list of sentences in a bucket that have not been checked 
 	# and not excluded as invalid
 	for line in open(sys.argv[1]).read().split('\n'):
 		if line.strip() == '':
 			continue
-		(k, v) = line.split('\t')
+		row = line.split('\t')
+		if len(row) != 2:
+			continue
+		(k, v) = row
 		if v in exclude:
 			continue
 		k = int(k)
 		if k not in include:
 			include[k] = []
 		include[k].append(v)
+
+else:
+	locale = sys.argv[1]
 
 # For each sentence in standard input
 for line in sys.stdin:
@@ -48,7 +75,18 @@ for line in sys.stdin:
 		continue
 
 	# Calculate the number of capital letters
-	n_caps = len(re.findall('[A-Z]', sentence))
+	n_caps = len(re.findall('[' + alphabet[locale].upper() + ']', sentence))
+
+	# Check that all symbols are punctuation or alphabetic
+	valid = True
+	for c in sentence.lower():
+		if c not in alphabet[locale] and c.isalnum():
+			#print('!!!',c,'|', sentence.lower())
+			valid = False
+			break
+
+	if not valid:
+		continue
 
 	# If we have more than two capital letters or if 
 	# we have 2 and the bucket size is 2, skip it
@@ -57,7 +95,11 @@ for line in sys.stdin:
 
 	# If we already reviewed and excluded the sentence, 
 	# skip it
-	if sentence in exclude:
+	if letters(sentence) in exclude:
+		continue
+
+	# We have already seen a variation of this sentence 
+	if letters(sentence) in seen:
 		continue
 
 	# If we haven't seen a bucket of this size already:
@@ -66,6 +108,8 @@ for line in sys.stdin:
 
 	# Add the sentence to the current bucket
 	buckets[bucket].append(sentence)
+
+	seen.append(letters(sentence))
 
 n_buckets = 10 # The number of sentence buckets (by length)
 for bucket in range(1, n_buckets+1):
