@@ -63,3 +63,17 @@ Sentence data has been taken from:
 To generate additional data files for other languages the sample.py file found in `scripts/` can be used by feeding in a newline separated textfile, such as one generated using [WikiExtractor](https://github.com/apertium/WikiExtractor.git). To collect these sentences run the following command, replacing ISO with the ISO code of the language you are generating data for: `python3 sample.py < WikiExtractor/wiki.txt > ISO.tsv`
 
 Once these sentences are generated, they should then be reviewed to ensure they follow the guidelines outlined above. Save the excluded sentences in `sentences/exclusions/` using the sample.py code as follows: `python3 sample.py old_file.tsv new_file.tsv > exclusions/ISO.tsv`
+
+
+### Another thing
+
+In order to use the script to get only sentences that have not been seen
+and are not in the exclusions file, you can do the following:
+
+```
+cat sentences/ru.tsv | cut -f2- > /tmp/ru.tsv
+cat /tmp/ru.subs | python3 scripts/sample.py /tmp/ru.tsv sentences/exclusions/ru.tsv >/tmp/newru.tsv
+```
+
+This will give a file where there are new sentences that are marked
+with `*` that can be checked.
