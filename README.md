@@ -15,7 +15,7 @@ Data files are found in `sentences/`
 | Spanish  | `es.tsv` | 10      | 100              |  ✔      | 
 | Catalan  | `ca.tsv` | 10      | 100              |  ✔      | 
 | English  | `en.tsv` | 10      | 100              |  ✔      |
-| Russian  | `ru.tsv` |         |                  |         |
+| Russian  | `ru.tsv` | 10      | 100              |  ✔      |
 | Swahili  | `sw.tsv` |         |                  |         |
 | Finnish  | `fi.tsv` | 10      | 100              |  ✔      |
 | Zulu     | `zu.tsv` |         |                  |         |

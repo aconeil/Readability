@@ -39,7 +39,11 @@ if len(sys.argv) == 3:
 	for line in open(sys.argv[2]).read().split('\n'):
 		if line.strip() == '':
 			continue
-		(k, v) = line.split('\t')
+		try:
+			(k, v) = line.split('\t')
+		except:
+			print(line, file=sys.stderr)
+			raise
 		exclude.append(letters(v))
 
 	# Create list of sentences in a bucket that have not been checked 
