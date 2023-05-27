@@ -47,7 +47,7 @@
 46	1	Oikeusministeriöstä.
 47	1	Periskooppisyvyyteen.
 48	1	Omituista.
-49	1	Anteeksi:
+49	1	Sinäkö?
 50	1	Liittoutuma?
 51	1	Ennenkuulumatonta.
 52	1	Isä?
@@ -58,7 +58,7 @@
 57	1	Vauhtia...!
 58	1	Jatkakaa.
 59	1	Lapsirukka.
-60	1	Haaste
+60	1	Huomio!
 61	1	Tulkaahan.
 62	1	Kotiopetus.
 63	1	Anteeksi!
@@ -66,7 +66,7 @@
 65	1	Ylpistelijä.
 66	1	Isomman?
 67	1	Yksin.
-68	1	Hiiop!
+68	1	Kuinka?
 69	1	Eivät.
 70	1	Todella.
 71	1	Roisto!
@@ -85,7 +85,7 @@
 84	1	Vastalause.
 85	1	Istuhan.
 86	1	Kolmekymmentä?
-87	1	Erinomaista
+87	1	Erinomaista.
 88	1	Kerran?
 89	1	Uskokaajo!
 90	1	Haaveita.
@@ -105,7 +105,7 @@
 104	2	Pian sarastaa.
 105	2	En tiedä...
 106	2	Rakastan työtäni.
-107	2	Kiitos, hyvää
+107	2	Kiitos, hyvää.
 108	2	En välitä.
 109	2	Tämäpä yllätys.
 110	2	Kertokaa mitä!
@@ -145,7 +145,7 @@
 144	2	Käännä kytkimet.
 145	2	Lopetetaan tämä!
 146	2	Voisimmeko lähteä?
-147	2	El kabrioletto?
+147	2	Kiitos majapaikasta.
 148	2	Suojaa minua!
 149	2	Todella hyvää.
 150	2	Kuulkaas herra!
@@ -167,7 +167,7 @@
 166	2	Hei, tytöt!
 167	2	Palaan heti.
 168	2	Vain palasia.
-169	2	Ehdottomasti en
+169	2	Ehdottomasti en.
 170	2	Menen perään.
 171	2	Väärä piirikunta?
 172	2	Ei tietenkään.
@@ -254,13 +254,13 @@
 253	3	Sinä katsot kuukauden.
 254	3	Hän kasvatti puun.
 255	3	Minä ottaisin vettä.
-256	3	Nyt on aika
+256	3	Nyt on aika.
 257	3	Olisin litistynyt täysin.
 258	3	Mitä tarkoitat avulla?
 259	3	Minä olin voittanut.
 260	3	Tiedän tuollaiset miehet.
 261	3	Oletteko kunnossa, eversti?
-262	3	Tätä me olemme
+262	3	Tätä me olemme.
 263	3	Hilda ei antanut.
 264	3	Mikä häntä vaivaa?
 265	3	Liityitte yhdessä, vai?
@@ -290,7 +290,7 @@
 289	3	Minä en lähde.
 290	3	Lähetän sinulle jotain.
 291	3	Joudumme vielä sähkötuoliin.
-292	3	Ennen kuin unohdan:
+292	3	Haluaisin ehdottaa maljan.
 293	3	Älä tee tuota.
 294	3	Taivas löi tulta.
 295	3	Merkillistä, eikö vain?
@@ -316,7 +316,7 @@
 315	4	Hyvä, minä löysin laukkuni.
 316	4	Vaipan helmakulmat jo erottuvat.
 317	4	Mitä jos heittäisitte kolikkoa?
-318	4	Silloin ajatus hiipi mieleeni:
+318	4	Majesteetti halua puhua kanssanne.
 319	4	Hän on aina myöhässä.
 320	4	Kuinka kauan olemme tunteneet?
 321	4	En ostanut vaan vapautin.
@@ -357,10 +357,10 @@
 356	4	He haluavat luotettavan miehen.
 357	4	Minä en odota ketään.
 358	4	Älä tee pahaa pojalleni.
-359	4	Et sinä seksiä pelkää.
+359	4	Mutta en välittänyt siitä.
 360	4	Minä teen päätökset nyt.
 361	4	Mitä sinulla on kaulassasi?
-362	4	Ollos siunattu vaimojen keskuudessa
+362	4	Ollos siunattu vaimojen keskuudessa.
 363	4	Olet tainnut hukata jotain.
 364	4	Missä he voivat olla?
 365	4	Mitä sinä teit varusteillesi?
@@ -417,8 +417,8 @@
 416	5	Eipä mahdukaan hänen hattunsa ovesta.
 417	5	Mutta mieli kävi yhä alakuloisemmaksi.
 418	5	Siellä he iloisina polskuttelivat menemään.
-419	5	Sopii tuollaiselle paskiaiselle kuin sinä.
-420	5	Mitalit eivät ole mikään puolustus.
+419	5	Ei, hän haluaa ruokailla yksin.
+420	5	Hänellä ei ole valinnan varaa.
 421	5	Jäädä kotiin ja lukea kirjaa.
 422	5	Miksi tämä piti tehdä näin?
 423	5	Auto tuolla pihalla, jolla tulit.
@@ -450,7 +450,7 @@
 449	5	Me lensimme portista uskomattoman lujaa.
 450	5	Antautumisenne jälkeen, lakkasitte olemasta sotilaita.
 451	5	Saasta yhdessä muiden saastojen kanssa.
-452	5	Et sinä sille mitään voi
+452	5	Et sinä sille mitään voi.
 453	5	Mä en pääse ylös aamulla...
 454	5	Mitäs tuo tyttö tähän kuuluu?
 455	5	Tuo ei ole mikään kesähuvila.
@@ -481,7 +481,7 @@
 480	5	Ei sinulla ole varaa tähän.
 481	5	Miten hirveää kuolema voi olla?
 482	5	Mikä valtion vihollinen minä olen?
-483	5	Runkohuoneen länsipäädyn ikkuna-aukot ovat alkuperäiset
+483	5	Runkohuoneen länsipäädyn ikkuna-aukot ovat alkuperäiset.
 484	5	Väliäkö siitä kenen sisko on?
 485	5	En ole oppinut käsittelemään näitä.
 486	5	Eikö teillä ole muuta tekemistä?
@@ -493,13 +493,13 @@
 492	5	Susie pääsee siitä ketaleesta eroon.
 493	5	Olen sitä paitsi jäljessä kolumnissani.
 494	5	Tuosta on vain pari minuuttia.
-495	5	Tiedätkö miten hän kuvaili seksielämäänne?
+495	5	Mitalit eivät ole mikään puolustus.
 496	5	Olemme helppo maalitaulu, sanon ma.
-497	5	Kolme kappaletta Muistiinmerkintöjä pieneltä saarelta
+497	5	Kolme kappaletta Muistiinmerkintöjä pieneltä saarelta.
 498	5	Lordi Louis on varmasti kiitollinen.
 499	5	Murhaajat ovat kuolleet ajat sitten.
 500	6	Huone ei näytä samalta ilman niitä.
-501	6	Suomalaisen kansanrunouden juuret ulottuvat pitkälle esihistoriaan
+501	6	Suomalaisen kansanrunouden juuret ulottuvat pitkälle esihistoriaan.
 502	6	Miten saitte tiedon meitä kohdanneesta iskusta?
 503	6	Olen kunnossa, ja Hilda-täti on täällä.
 504	6	Hänet karkotettiin, sillä hän käyttäytyi sopimattomasti.
@@ -513,7 +513,7 @@
 512	6	Johdan murhaajia ja raiskaajia pursuvaa vankilaa.
 513	6	En tiedä enää kuka minä olen.
 514	6	Pakkasimme kiireessä mukaan yhden Bobon puvun.
-515	6	En veisi sinua Pariisiin, ellet pärjäisi.
+515	6	Hän piilotteli sairaalassa sikareita ja konjakkia.
 516	6	Luulin, että tarkastusryhmä hoitaisi hommat kuntoon.
 517	6	Koivu mökin nurkalla näyttää melkein mustalta.
 518	6	Meistä tuli läheisiä ja juttelimme lapsuudestani.
@@ -539,14 +539,14 @@
 538	6	Lopeta krupieerin työt tai ilmiannan sinut.
 539	6	Apophis määräsi minut tappamaan Hannon isän.
 540	6	Mutta tuossa oli vain yksi sivu.
-541	6	Parkkipaikan aina löytää Siellä toista tervehditään
+541	6	Niinpä miehenikin kelpaavat tanssimaan naistenne kanssa.
 542	6	Äänestän tätä sanoinkuvaamatonta sosiaalista taantumaa vastaan.
 543	6	Hän pysähtyi portin pieleen kivijalkaa vasten.
 544	6	Mennään mihin tahansa, kunhan vain lähdemme!
 545	6	Junan takia se olisi sen arvoista.
 546	6	Tämä löi Käkriäisen sydämelle pahan suuttumuksen.
 547	6	Ehdotan, että Buffy tappaa heidät, sopiiko?
-548	6	Sanoin sille nartulle, että minut vapautetaan.
+548	6	Miamin kisat eivät koskaan olleet tällaisia.
 549	6	Syyrian hallituksella ei ole kontrollia alueella.
 550	6	Eihän meillä edes ollut mitään suhdetta.
 551	6	Tämä oli katolla lähellä tykinkuulan paikkaa.
@@ -554,7 +554,7 @@
 553	6	Valitettavasti moni muukin mies halusi häntä.
 554	6	Näitä miehiä syytetään pelkuruudesta vihollisen edessä.
 555	6	Lopeta hölmöily, niin minä lopetan ärsyttämisen.
-556	6	Sanoin: "Hän ei voi tehdä tätä.
+556	6	Sanoin: "Hän ei voi tehdä tätä."
 557	6	Ehkä sinä saat, mutta en minä.
 558	6	Arvaa mitä hän sanoi minulle kerran.
 559	6	Tässä mainitaan, että autoitte testamentin teossa.
@@ -593,7 +593,7 @@
 592	6	Sen löytää vain toisen ihmisen sydämestä.
 593	6	Työnsi sormensa letkuun, eikä saa irti.
 594	6	Mikäli joukkoni kyselee liikoja, sanokaa vain.
-595	6	Sanoit näin, vaikka oletkin kai unohtanut:
+595	6	Irinan mielessä on väitöskirja eikä häät.
 596	6	Hän sanoo auttavansa pinteessä kaikin keinoin.
 597	6	Sinun pitää vain kestää paineen alla.
 598	6	Käyttäkää käsikranaatteja, ne ovat ainoa toivomme.
@@ -623,13 +623,13 @@
 622	7	Joy voisi hyvinkin haluta esityksen tärkeimmäksi tytöksi.
 623	7	Varmistakaa ensin, että Inui on todellakin vetäytymässä.
 624	7	Miksi kukaan matkustaisi tänne avaruusaluksella valehtelemaan meille?
-625	7	Hei, isä toi karhun Gstaadista vuosia sitten.
+625	7	Hän tarjoutuu ajelemaan päänsä, anteeksi pyyntönä petoksestaan.
 626	7	Mutta vielä en ole menettänyt ainoatakaan pelinappulaa.
 627	7	Kukaan ei saisi enää kokea Pavelin kohtaloa.
 628	7	Hän ei halua herätystä pelkän ryöstön vuoksi.
-629	7	Hitto soikoon, ja minä kun ostin kirjankin.
+629	7	Voitte olla varma, että se tulee edestäpäin.
 630	7	Luulisin, että se on kuin yksinkertainen oikeudenkäynti.
-631	7	Mitä te sanotte Voiko niitä tarjota lehteen?
+631	7	Toisin kuin vihollisemme, tunnemme metsän jokaisen polun.
 632	7	Joo, luulen että olet vähän tyhmä toisinaan.
 633	7	Mutta ensin meidän pitää oppia luottamaan toisiimme.
 634	7	Suurimmassa emoaluksessa matkustaisin minä muiden armeijajohtajien kanssa.
@@ -653,9 +653,9 @@
 652	7	Se on yksi kaikkien aikojen oudoimmista tarinoista.
 653	7	Hän antoi tämän avaimen jotta pääsen sisään.
 654	7	Ja jos haluatte mitään muuta, kutsukaa minua.
-655	7	Sen nimi vois olla Sapsu", sanoi Raivo.
+655	7	"Sen nimi vois olla Sapsu", sanoi Raivo.
 656	7	Mitähän veljesi sanoisi, jos kertoisin, mitä yritit?
-657	7	Et arvaa, miten hyvältä minusta tuntuu sanoa:
+657	7	Hän nai minut ja toi minut tänne.
 658	7	Voisitko tehdä palveluksen ja hakea, perheen lautaset?
 659	7	Miksi aina käy näin, kun seison tässä?
 660	7	Et saa mitään aikaiseksi Dirkin äidin kanssa.
@@ -663,13 +663,13 @@
 662	7	Ainakin vähensimme koko galaxin Tähtiportit muutamaan mahdolliseen.
 663	7	Aloitan terrorismin uhasta, joka maailmassa on todellinen.
 664	7	Ulkona oleva kuva antoi pojille erilaisen vaikutelman
-665	7	Kyhmy nännisi alla on toisen vaiheen ihosyöpää.
+665	7	Sellaista sisua, joka voi tappaa meidät kaikki.
 666	7	En käynyt yksityiskoulua eikä minussa ole tyyliä.
 667	7	Vai aiotte te tarjota viholliselle minun pääni!
 668	7	Eikä teistä ole hyötyä, jos olette hautausmaalla.
 669	7	En halua tuntea miehiä, jotka yritän... tuhota.
 670	7	Haluan viettää viimeiset tuntini maan päällä kanssanne.
-671	7	Jos Sybil palaa ajoissa, pyytäisittekö soittamaan Pariisin-toimistoomme?
+671	7	Tiesin koko ajan, ettei hän rakastanut minua.
 672	7	Sitä pitäisi esitellä usein ja arvostaa aina.
 673	7	Olette nyt sitä, mitä haluamme teidän olevan.
 674	7	Tiedät varmasti jo, mitä tunnen sinua kohtaan.
@@ -688,20 +688,20 @@
 687	7	Et voi vain... käskeä häntä tuolla lailla.
 688	7	Kaikki mitä oikeudessa tapahtui viittaa hänen syyllisyyteensä.
 689	7	En vain keksi millään missä te asutte.
-690	7	Jaanan ilme loisti, kun hän kajautti ilmoille:
-691	7	Päivä paistoo möllöttää, - toiset muata köllöttää
+690	7	Joskus mietin, onko koskaan ollutkaan muuta syytä.
+691	7	Jos pystyt, niin kerro minulle taisteluni lopputulos.
 692	7	Hänessä asuu nyt väkevä ja paha demoni.
 693	7	Nappasin kaukosäätimen käteeni ja aloin selailla elokuvatarjontaa.
 694	7	Haluat totisesti tuhota kaiken, mikä kuuluu minulle.
 695	7	Sen jälkeen olisi kyllä jo käytävä nukkumaan.
 696	7	Järjestän hänen levyjään tiskijukille, levyautomaatteihin ja kauppoihin.
 697	7	Iloa on minullakin, minut on hyväksytty maamieskouluun.
-698	7	Ajattelin, että istuisimme valamies- numeroiden määräämässä järjestyksessä.
+698	7	Hän on tanssinut, vaikka lääkäri on kieltänyt.
 699	7	Meillä on yhä viiden tunnin pikamarssi kohteeseemme.
 700	8	Mutta hän oli näyttämön takana korkeintaan kolme minuuttia.
 701	8	Ei se Pekka oo antanu ittestään mitään kuulua.
 702	8	Tarkoitukseni oli muistuttaa näiden miesten aiemmin osoittamasta urhoollisuudesta.
-703	8	Jos tämä on lahjus - olen hyvin kiinnostunut.
+703	8	On kuulemma hyvin hauska, jos on hyvällä tuulella.
 704	8	Äänestimme siksi kauppaa ja ilmastonmuutosta koskevan mietinnön puolesta.
 705	8	Olen pahoillani, Eversti, presidentti ei anna lupaa pelastukselle.
 706	8	Äänestin hieman epäröiden tämän sovitteluvaltuuskunnan hyväksymän mietinnön puolesta.
@@ -712,10 +712,10 @@
 711	8	Tuskin maltan odottaa sitä, että pääsen käymään sotaa!
 712	8	Toivoisin vain, ettei sinun tarvitsisi olla niin salaileva.
 713	8	Hän katsoi alas jalkoihinsa nojaten poskensa kämmeniään vasten.
-714	8	Naamioit sen hyvin herrasmies- mäisyytesi ja charmisi taakse.
-715	8	Kun saan - lääkettä, kuinka nopeasti se vaikuttaa?
+714	8	Nyt voitte ruveta parkumaan, mutta näin on näreet.
+715	8	Kun raha alkaa virrata voin sanoa olevani iloinen.
 716	8	Olemme pienen kaupungin pieni piste suuren suurella kartalla.
-717	8	Vasta jos Seittien metsä liikkuu kohti linnaa -
+717	8	En minä osaa käyttäytyä niin kuin ministerin pitäisi.
 718	8	Hänellä oli pitkälle edennyt syöpä jota ei hoidettu.
 719	8	Hyvä on, palautan kynän mutta tämä on kotini.
 720	8	Lucifer siteeraa aina Raamattua ja vannoo kuvernöörille kostoa.
@@ -723,7 +723,7 @@
 722	8	Olimme astumassa ulos kaupasta, kun Vanna puuskutti paikalle.
 723	8	Tuo on ensimmäinen kannustuksen sana, minkä olet sanonut.
 724	8	Ja ufosieppaukset ovat totta, koska "siepatut" sanovat samaa
-725	8	Hibbing on ollut hyvä ystäväni kouluajoista asti -
+725	8	Nyt tilaamme auton ja muutamme tavaranne uuteen asuntoon.
 726	8	Kansainvälisen yhteisön työ terrorismin kitkemiseksi ei ole päättynyt.
 727	8	Herra Drummond, onko meidän pakko tehdä rakkauskohtaus ensiksi?
 728	8	Maailma on muuttunut siitä, kun lähdit juoksentelemaan erämaihin.
@@ -732,7 +732,7 @@
 731	8	Mitä merkitystä sillä on, mikä sinun nimesi on?
 732	8	Otan neuvostasi vaarin ja lähden kun vielä voin.
 733	8	Meillä on asioita, olipa siellä tyttö tai ei.
-734	8	Tuumin, että yksi mies Texasissa voisi pysäyttää hänet:
+734	8	Yai sanoo, että matka kestää kahdesta kolmeen päivään.
 735	8	Niin, han katsoo minua voidakseen kaataa kurkkuunsa ryypyn.
 736	8	Aamupäivän ajan parlamentti arvosteli komissiota talouden valvonnan tehottomuudesta.
 737	8	Sinä vain annat rahasi ja saat sillä sonnisi.
@@ -743,7 +743,7 @@
 742	8	Soitan Stenbergille ja sanon, että minulla on seuralainen.
 743	8	Aamupäivällä ennen lounasta meillä oli vain kaksi nimenhuutoäänestystä.
 744	8	Mutta sitten Harold ei hermoilisi väliin jääneistä harjoituksista.
-745	8	Sippel vapautuu huomenna työttömänä, - asunnottomana ja tuettomana.
+745	8	Aiotte tappaa minut, ja tarjota viholliselle pääni, antautuessanne.
 746	8	Se viini on juotavaa vasta kahden vuoden päästä.
 747	8	Minä olen pahoillani Teal'c, mutta se on hyväksymätöntä.
 748	8	En ymmärrä miten voitte tietää sen olevan vihollinen.
@@ -767,9 +767,9 @@
 766	8	Näytän, miten sinun pitää käyttäytyä kun menemme ulos.
 767	8	Kun Morgan on tappanut heidät minä perin kaiken.
 768	8	Oli mahtavaa, että olimme taas ottaneet niskalenkin tappiaisista.
-769	8	Kui iso tää maa on?", kysyin viattoman oloisesti.
+769	8	"Kui iso tää maa on?", kysyin viattoman oloisesti.
 770	8	Olemme tunteneet toisemme ja olleet ystäviä kokonaisen ihmisiän.
-771	8	Toisaalta olette sankari, - sillä pakenitte viidakon läpi.
+771	8	Johtajan tuntien epäilen ettei Everett koskaan saa sitä.
 772	8	Muut eivät hermostu, jos Rebadow sanoo lähettäneensä ne.
 773	8	Hän palasi Vietnamista ja tappoi kauppaa pitävän vinosilmäperheen.
 774	8	Isä Powersin tapaaminen toisi minulle vain huonoa julkisuutta.
@@ -791,7 +791,7 @@
 790	8	Eikä hän aikuistumisen myötä merkittävästi ollut tasoittunut, päinvastoin.
 791	8	Arvon rouva, tässä on lista kaikista isäntäni valloituksista.
 792	8	Linnani muurit ovat säröillä, ja varjoja on kaikkialla.
-793	8	Hän tappoi ramman miehen, joka ei voinut paeta.
+793	8	Niin käy sinullekin jonain päivänä, kuten meille kaikille.
 794	8	Vaikuttaisi siltä, että me lähtisimme matkaan huomenna aamunkoitteessa.
 795	8	Kahden pääosakkaan välillä tuntui olevan tunteisiin perustuvia vaikeuksia.
 796	8	Sinulla on sisäistä verenvuotoa, en tiedä kuinka pahasti.
@@ -802,7 +802,7 @@
 801	9	Sisareni teki kanssasi töitä Fresnossa ja kertoi sinusta kaiken.
 802	9	Yksin, sillä sopivan ajan kuluttua minäkin olisin kai saanut...
 803	9	Mitä olisit tehnyt, jos kukaan ei olisi lyönyt tarjoustasi?
-804	9	He saattoivat olla Contentionissa ja kuulivat kun vuokrasimme vaunut.
+804	9	En voi vannoa, että Leonard oli seurassani murhan tekohetkenä.
 805	9	Ensin epäilin Craigiea, mutta hän oli terassilla tykinkuulan pudotessa.
 806	9	Äänestettävänä on monia asioita, joten toivon teidän suhtautuvan ymmärtäväisesti.
 807	9	Onko olemassa kylmä sota sinkkujen ja naimisissa olevien välillä?
@@ -821,8 +821,8 @@
 820	9	Jos he eivät vielä ole laulaneet, he laulavat nyt.
 821	9	Nyt valaistu laite on kellutusyksikkö joka on yksi suosikeistani.
 822	9	Pyörin ja kääntyilen sen asian tiimoilla vielä jonkin aikaa.
-823	9	Kissan kylmissä keltasilmissä on jotain, - mikä karmii selkäpiitä.
-824	9	Tämä on kuva Neitsyestä, joka kuulee tulevansa Jumalan äidiksi
+823	9	Ei, idea on hyvä, mutta en pääse tänään iltapäivällä.
+824	9	Tämä on kuva Neitsyestä, joka kuulee tulevansa Jumalan äidiksi.
 825	9	Joni puuskutti paikalle, mutta siellä ei näyttänyt olevan ketään.
 826	9	Eversti, meillä on vielä hetki aikaa ennen seremonian alkua.
 827	9	Täytyy olla kökkä kala, jos meinaa Puupään onkeen tarttua.
@@ -831,7 +831,7 @@
 830	9	Ja jos sinulla on tosi nälkä: ihanalta tuoksuvia suklaapannukakkuja.
 831	9	En pyytänyt mitään, en odottanut mitään enkä saanut mitään.
 832	9	Jos sitä ei estetä, se tappaa satoja, jopa tuhansia!
-833	9	Goa'uldit ovat siellä, - eikä asukkaista ole heille vastusta.
+833	9	Sanoin hänelle, etten tiennyt olisiko hän enää täällä tänään.
 834	9	Muut on tunnistettu mutta se poika tippui kai taivaasta.
 835	9	Kyllä kyllä, uskon, että Jenningsillä on suunnitelma, mutta pakenemisesta?
 836	9	Jos tapaisit pojan, joka pelaa vaarallista peliä muiden hengillä.
@@ -845,75 +845,75 @@
 844	9	Syytetyn penkillä on istunut kuninkaita, ministereitä, piispoja, jopa asianajajia.
 845	9	Eikö ole turhan aikaista tytölle, joka ei juo illallakaan?
 846	9	Luuletko että voit löytää... jonkun kielen jolla voimme kommunikoida..
-847	9	Ratkaiskaa riimujen arvoitus, - niin näytän teille todellisen mahtini.
+847	9	Annat heille tarkat määräykset ja vaadit, että niitä noudatetaan.
 848	9	Hoidan sitä paremmin kuin sinä, mutta se ei syö.
 849	9	Paremminkin olisi voinut mennä, mutta meillä on sentään joukkue.
-850	9	Me olemme tekemässä historiaa - me olemme kirjaimellisesti tulevaisuus.
+850	9	Ehkä se oli hyvä vuosi rypäleille mutta huono laulajille.
 851	9	Tai siksi, että se oltaisiin katsottu turvattoman vanhuksen kiusaamiseksi.
 852	9	Ehkäpä juuri siksi Mysteerimieskin ehdotti juuri sen aluksen kähveltämistä.
 853	9	Minusta on tullut se hirviö... joka teistä piti tulla.
 854	9	Jos he ovat köyhiä, miksemme anna heille puolta ruoastamme?
-855	9	Itsenäisyysjulistuksen tekijöitäkään ei voitu, - eikä minuakaan voi aivopestä.
+855	9	Olen soittanut joka päivä, mutta en saa ketään kiinni.
 856	9	Kutsu viidakon väki ja pyydä heitä tapaamaan minut joella.
 857	9	Tiedät että olen tosissani eikä tämä ole mitään hysteriaa.
-858	9	Sen takia kirjoitetaan kirjoja- perustetaan uskontoja ja pyritään presidentiksi.
-859	9	Tyttösi raiskattiin ja hakattiin, ja te kostitte sen minulle.
+858	9	Minusta on yllättävää, etteivät naisten hatut yllytä useampiin murhiin.
+859	9	Jos hän tulee takaisin minä jään ja saan palkankorotuksen.
 860	9	Ensin tosi huonosti, nyt menee paremmin, koska vanhemmat vapautettiin.
 861	9	Kun katsot tyttöä suoraan silmiin, näet, tunteeko hän jotain.
 862	9	Siksi mietin, josko ennen häippäämistäsi kirjoittaisit minulle kirjeen äidilleni.
 863	9	Äänestääkö hän nyt euroon liittymisen puolesta, kuten minäkin teen?
-864	9	Pelastimme tuon mulkun hengen, ja hän tekee meille väijytyksen.
+864	9	Tarvitaan muutakin kuin sormus, että minusta tulee kunnon mies.
 865	9	Se näytti aikaa, jolloin Mysteerimies sanoi meidän saapuvan Ventukselle.
 866	9	Kesä on tietysti talvea parempi kun ei tarvitse palella.
-867	9	Ìinun on Éoydettava huomenna joku, joka voi ottaa paikkasi.
+867	9	Komitea suositteli tuomion lykkäystä, joten nyt he ovat vapaat.
 868	9	Ei, idea on hyvä, mutta en pääse tänään iltapäivällä.
-869	9	Olen asunut naisten kanssa sen verran, että ymmärrän asioita
+869	9	Olen asunut naisten kanssa sen verran, että ymmärrän asioita.
 870	9	En välitä siitä, mitä kaverisi ajattelevat minusta, tai sinä.
 871	9	Ei tunnu hyvältä, että työskentelet yksin niin laajalla alueella.
 872	9	Yliopistolla on eri henkilöstöryhmien ja opiskelijoiden edustukseen rakentuvat päätöksentekoelimet.
 873	9	Brubeck ja Desmond ovat vieneet dissonanssin aivan riittävän pitkälle.
 874	9	Se on niin kauan hauskaa, kunnes joltain puhkeaa silmä.
-875	9	Otin pari snapsia liikaa, ja minulla alkaa heittää kännissä.
+875	9	Se oli virhe, mutta ei ole liian myöhäistä, eihän?
 876	9	Ja jollen minä löydä sitä oliota, sinä teet sen.
 877	9	Äänestämme mietinnöstä tyhjää, sillä parlamentin edessä on ratkaisematon ongelma.
 878	9	Äänestämme tietenkin tätä mietintöä vastaan, mutta se ei riitä.
 879	9	Mutta muista, taikominen ei ole vain hauskaa ja leikkiä.
 880	9	Oikeastaan tässä tapauksessa heillä on paremmat mahdollisuudet kuin meillä.
 881	9	Joka meinaa markan tienata, sen pitää kaks uskaltoo menettää.
-882	9	Tuntemani miehet - ja olen tuntenut heitä tusinoittain -
+882	9	Hän karkasi koulusta, ja arvasin heti mitä vanhemmmat ovat.
 883	9	Hänenhän pitäisi olla elossa, ei kuolleena mätänevien ruhojen keskellä.
 884	9	Hoida sinä omat asiasi ja anna minun hoitaa omani.
 885	9	Voit tulla käymään luonani, ja minä voin käydä täällä.
 886	9	Toivottavasti Bat palaa apulaisten kanssa ennen kuin cowboyt tulevat.
-887	9	Kuule, Sean - en usko, että tästä tulee mitään.
-888	9	Ei ole minun vikani, että miehesi on tylsä sängyssä.
-889	9	En vain nähnyt mitään muuta toimintatapaa, kuin luottaa Mysteerimieheen.
+887	9	Hän oli uusi ja vähän hermostunut, joten autoin häntä.
+888	9	Ulkoa löytyneet sirpaleet eivät sopineet ajatukseen talon sisään tunkeutujasta.
+889	9	Ellei hän tule takaisin lauantaihin mennessä, lähden ilman palkkaa.
 890	9	Ja kun sota on ohi, aseet ovat edelleen käytettävissä.
 891	9	Murhasittepa lesken tai ette, pelastitte ainakin ikääntyvän asianajajan hengen.
 892	9	Huoneessa oli pilkkopimeää ja jouduimme käyttämään lamppujamme valaistaksemme sen.
 893	9	Osan oli jäätävä riutuvalle planeetalle, muuta heitäkään ei unohdettaisi.
 894	9	Tiesin, että hän tekisi jotakin, mutta en tiennyt mitä.
-895	9	Jos pelaisimme tosissamme - minun olisi vilkaistava tuota pakkaa.
-896	9	Se pesee tehokkaasti, - mutta on silti hellävarainen vaatteille.
+895	9	Herttainen vertaus, mutta et kai sentään pidä minua kylmänä.
+896	9	Mutta vannoit, että jos joskus näkisit minut, kysyisit asiasta.
 897	9	Tehtävämme on tutkia miten elämä säilyy ja kukoistaa siellä.
 898	9	Elämä on rankkaa, jos siihen ei saa kunnon eväitä.
 899	9	Äänestän mietintöä vastaan kannattamieni ekologian ja rauhan periaatteiden mukaisesti.
-900	10	Siihen hän kuoli ja jätti minut ja vajaan veljeni yksin.
-901	10	Elokuvaesitys keskeytetään niiden vuoksi, - jotka ovat innokkaita television katsojia.
+900 10	Siihen hän kuoli ja jätti minut ja vajaan veljeni yksin.
+901	10	Mitä sinä siitä välität, minne menen tai kenen kanssa olen?
 902	10	Kuljin olohuoneen ohi ja kuulin syytetyn puhuvan rouva Frenchin kanssa.
 903	10	Hän on täynnä mehuja ja vain odottaa ison kihon puserrusta.
 904	10	Äänestimme tyhjää päätöslauselmaa koskevassa äänestyksessä, koska vastustamme joitakin sen kohtia.
-905	10	Jos tiedät Marlowen olinpaikan, - saat tuplaylennyksen ja ehkä palkankorotuksen.
+905	10	Sitten tiesin, että välillämme täytyy olla jotain, vaikka vain valtameri.
 906	10	Sinulla on yksi polvi kipeänä, mutta minulla on molemmissa vettä.
 907	10	Miksi hän ensin pyysi minut kalaan ja alkoi sitten kettuilla?
 908	10	Äänestän tämän tekstin puolesta edellyttäen, ettei sitä muuteta merkittävästi tarkistuksilla.
-909	10	Pian saavuimme Polohan kohdalle ja näin kaupungin ikkunasta entistä tarkemmin.
+909	10	Koulumme haluaa kehittää yksilöllisyyttä, sallii lapsen ilmaista tunteensa ja halunsa.
 910	10	Rakastan häntä, mutta haluan vielä olla vapaa ja pitää hauskaa.
 911	10	En usko, että hän haluaa lähteä kaupungista, kun olemme täällä.
 912	10	Leikkii kohtalon pitkä leikki on, aina alkaa se taas uudestaan
 913	10	Jos ette pysty näkemään eroa, en aio selittää sitä teille.
 914	10	Ainoana sinkkulakimiehenä hänen firmassaan, Miranda oli saanut tälle asialle todisteita.
-915	10	Amsterdamin sopimus on hyvin vaatimaton ja siitä voimme olla iloisia.
+915	10	Kyllä, mutta vasta sitten kun sinä olet hallinnut sitä ensin.
 916	10	Äänestin mietinnön puolesta talousasioiden valiokunnassa, jotta se voitaisiin ottaa esityslistalle.
 917	10	Minut yllättää se, että kollegani tiedustelee todistajan mielipidettä eikä tosiasioita.
 918	10	Voimme silloin alkaa neuvotella siitä, saammeko päätöstä aikaiseksi vai emme.
@@ -923,27 +923,27 @@
 922	10	Suomen viranomaiset ovat pitkin syksyä valmistautuneet erilaisia mahdollisia tapahtumakulkuja varten.
 923	10	Tämän saavuttamiseksi yliopistossa on vallittava työrauha ja työhyvinvointia on vahvistettava.
 924	10	En kärsi yhtään tappiota, ellei taivas putoa tai maa halkea.
-925	10	Tiedän myös, että olemme kahden täällä, - missä sitten olemmekin.
-926	10	Luuletko, että kahdeksan miljoonan amerikkalaisen kuolema - riittää huomion saamiseen?
+925	10	Minä taas en ole läheskään niin pahoillani, kuin luulin olevani.
+926	10	Hän lauloi jatsia ja halusi tietää, mistä laivaston pojat pitivät.
 927	10	Toivottavasti, koska minulla on treffit perjantaina enkä voi käyttää näitä.
 928	10	Tavata joku, joka ei vain tule teatteriin vaan antautuu sille.
 929	10	Älkää kännätkö ja mekkaloiko, koska sillä tavalla voi päästä hengestään.
 930	10	On myös toinen tärkeä päätös, jota ei voi enää lykätä.
-931	10	Jos on jotain ilmoitettavaa, - kirjoittakaa nimenomaan osoitteella johtaja Leino.
+931	10	Syytetty on kärsinyt jo kolme päivää järkytystä ja henkistä tuskaa.
 932	10	Minä löysin taikakolmion ja tuo ahne mulkvisti vei sen minulta.
 933	10	Minulla on ilo ja kunnia saada toimittaa terveiseni jumaliemme alkukotiin.
 934	10	Siten hänen lausuntonsa on pätevä, ja teidän pitää harkita sitä.
-935	10	Luuletko että meidän pitäisi pysähtyä - ja hakea kuumaa kaakaota?
+935	10	Pääsimme hirsipuusta eroon, mutta jonkun jalan alla on edelleenkin banaaninkuori.
 936	10	Äänestämme tätä sopimusta vastaan, koska haluamme ilman muuta paremman sopimuksen.
-937	10	Herran tähden, kuulin joidenkin puhuvan sinusta - ja syyttävän laittomuuksista.
+937	10	Jos ette pysty näkemään eroa, en aio selittää sitä teille.
 938	10	Äänestämme siis sen tarkistuksen puolesta, jossa vaaditaan koko mietinnön hylkäämistä.
 939	10	Pysyt vieraanamme tässä paikassa... vain yhdellä tapaa, kaveri, maksamalla ajallaan.
-940	10	Olen onnekkain tyttö - kun olen löytänyt näin ihmeellisen aviomiehen.
+940	10	Charlie, vie hänet putkaan, anna selvitä ja vie pois kaupungista.
 941	10	Kun he löytävät Ricon, hän ei pääse juhlapäivälliselle vaan ruumiinvalvojaisiin.
-942	10	Jos päätätte tulla meille töihin - soittakaa minulle suoraan tehtaalle.
+942	10	Se on ihana, mutta otan vain sen pikkuleningin, jonka halusin.
 943	10	Jos olisitte Saiton alainen, tekisittekö parhaanne, vai jättäisittekö hänet kuolemaan?
-944	10	Se voi tarkoittaa portilla ollutta laitetta - tai jopa vasaraa.
-945	10	Kun he yrittivät tappaa nuoren merimiehen - he synnyttivät kostajan.
+944	10	Ajattele isääsi ja äitiäsi ja meitä kaikkia, jotka pidämme sinusta.
+945	10	Tämä ei ole huomautus teitä kohtaan, mutta aina löytyy tekosairaita.
 946	10	Miranda mietti, kuinka paljon helpompaa elämä olisi, jos eläisi parisuhteessa.
 947	10	Sanoit, että rakastan kalliita asioita, turkiksia, timantteja ja sen sellaista.
 948	10	Mutta voittehan lähteä juoksemaan nyt, jos haluatte tehdä siitä kiinnostavan.
@@ -952,49 +952,49 @@
 951	10	Voisitteko siivota tekstiä hieman ja kertoa minulle mitä siinä sanotaan?
 952	10	Kuten muiden siviilien sodassa, minunkin täytyi opetella ajattelemaan toisella tavalla.
 953	10	Oletko sitä mieltä, että jos rikkoo lupauksen, on pyydettävä anteeksi?
-954	10	En halua enää palella kentän laidalla, kun Harry pelaa rugbya
+954	10	En halua enää palella kentän laidalla, kun Harry pelaa rugbya.
 955	10	En minäkään ole nähnyt sinunlaistasi ihmistä, joten olemme kai tasoissa.
-956	10	Amsterdamin sopimuksessa on kauniita sanoja avoimuudesta, kestävästä kehityksestä ja työllisyydestä.
+956	10	Jos epäilet vielä Volea, voin lyödä sikarilaatikon vetoa hänen puolestaan.
 957	10	Minun tarvitsee vain soittaa puhelu ja saamme hyvät liput huomiseksi.
 958	10	Lopuksi hän alleviivasi sitä, että meidän on saatava rotuerottelu arkkiin.
 959	10	Sinulla on enemmän syytä kuin meillä muilla sen sukellusveneen hoitamiseen.
 960	10	Painakaa tätä, jos haluatte ylös, ja tätä, jos haluatte alas.
 961	10	Olemme yhtä mieltä siitä, että juna ohitti naisen kymmenessä sekunnissa.
-962	10	Ja nyt se ählämi änkee meille kylälle mun lapsen kaa.
+962	10	Jos uudet vangit näkevät meidät kaivamassa hautoja, he saattavat karata.
 963	10	Sitten nämä ovat sen Goa'uldin muistoja, joka nukkuu nyt sisälläsi.
-964	10	Minä yritän, ― mutta itse asiassa en halua hänen apuaan
-965	10	T niin kuin turtaa ja tahmeaa, - tyhmää ja tappavaa.
-966	10	En tiiä, mitä näin", yritin epätoivoisesti valehdella itseni turvaan tilanteesta.
+964	10	Ei ihme, että hän päätyi naimisiin sen halpahintaisen tyypin kanssa.
+965	10	Englannissa ei pidätetä tai tuomita rikoksista, joita ei ole tehnyt.
+966	10	"En tiiä, mitä näin", yritin epätoivoisesti valehdella itseni turvaan tilanteesta.
 967	10	Eikä hänen poikansa riko niitä, koska olen hänen ainoa lapsensa.
 968	10	Elämäni on ollut täynnä kovaa työtä ja olen kiitollinen siitä.
-969	10	Vaarojakin voi olla... mutta jos pidätte kiinni päämääristänne ja ihanteistanne...
+969	10	Kuinka kauan luulisitte vievän parantua, jos tuo härkä polkee hänet?
 970	10	Se oli niin hyvä ja pitkä tauko, että olin epävarma.
 971	10	Lonkeroisia oli kaikkialla, ne kurottautuivat yhä lähemmäs ja lähemmäs lonkeroillaan.
-972	10	Sinä olet nuori ja seksikäs, ja isähän on vain mies.
+972	10	Ihmettelimmekin juuri mitä teille oli tapahtunut, ja siinä te olette.
 973	10	Äänestimme kuitenkin tyhjää, sillä mietinnössä hukattiin tilaisuus puuttua vakavaan ongelmaan.
 974	10	Kuuntele, kun puolet yhtälöstä puuttuu kyse ei ole enää rakkaudesta.
 975	10	En kyllä rupea koko päivää kotona kykkimään mokoman asian takia.
-976	10	Katossa on halkeama, ― joka näyttää aivan naiselta päivänvarjon kera
+976	10	Varmistan, ettei Frank ratsasta tiehensä rikkaana ja jätä meitä köyhiksi!
 977	10	Raivo ei ollut kovinkaan luottavaisin mielin, hän epäili miehen sanoja.
 978	10	Katsoin kysyvästi Victoriin päin, mutta näin hänen katselevan ulos ikkunasta.
-979	10	Lähetin juuri sähkeen kertoakseni - että ajattelen sinua tänään, juhlapäivänäsi.
-980	10	Sanonpahan vain että jos tietäisit, mistä jäät paitsi, tappaisit itsesi.
-981	10	Suokaa anteeksi uteliaisuuteni, - mutta mikä on teidän osuutenne asiassa?
+979	10	Otin asian esille kun puhuin eversti, kuka hän nyt olikaan.
+980	10	Joskus teidän on tartuttava tilaisuuteen ja otettava se, mitä haluatte.
+981	10	Minulla on perhe ja haluan heille jotain parempaa kuin sota.
 982	10	Vaikka kaikki ympärillämme tuhoutuisi, meillä olisi silti toisemme ja Annabelle.
 983	10	Äänestimme eilen tällaista taloudellista protektionismia vastaan, ja teemme samoin tänään.
 984	10	Luotaimen kuvasta he näkisivät vain sulaneen arkin ja mylvivän puuhirviön.
 985	10	Vaikka Willard naikin teidät rahojenne vuoksi, hän kuitenkin nai teidät.
 986	10	Jos en nyt avioidu kanssasi, voi olla, ettei niin käykään.
-987	10	Minäkin uskoin joella yhtä ja toista, - mutta varmaankin erehdyin.
+987	10	Hallituksen pääministerinä se on minun nimissä, kunnes Majesteetti toisin toivoo.
 988	10	Olemme asentaneet taajuus vaimentimia jotka vaimentavat sen vain pieneen tärähtelyyn.
 989	10	Se oli hyvä opetus, mutta toivoin, ettei sitä tarvitsisi käyttää.
 990	10	No, minusta sinä ansaitset palkinnon kun olet ahertanut noin hyvin.
-991	10	Ystävät, tämän tikarin avulla - todellisuuteni muuttuu niin paljon vakaammaksi.
+991	10	Eihän itseään voi rangaista yhden virheen takia koko elämän ajan.
 992	10	Kerroin, mikä päivä tänään on, ja he halusivat onnitella sinua.
 993	10	Kun olimme kaikki kolme laskeutuneet tikkaat alas, aloimme tutkailemaan ympäristöämme.
 994	10	Äänestämättä jättävien kasvavan määrän pitäisi olla meille vakavasti otettava varoitus.
 995	10	Äänestin jo aiemmin kiireellisistä aiheista käydyn keskustelun yhteydessä tuomitsemisen puolesta.
 996	10	Vien sen kirjastoon, jos vaikka saisimme selville mistä se tuli.
-997	10	Minulla on ydinvoimasuunnitelmia, jotka mullistaisivat elämän - ja mahdollistaisivat utopioita.
+997	10	Joko niin tai se sukellusvene tuolla on vahvaa lääkettä minulle.
 998	10	Olen asiaa harkittuani sitä mieltä, että Milhouse varmaan söi ruuat.
 999	10	Olette hieman myöhässä, herra Ferrante, ja meidän on aloitettava ohjelma.
