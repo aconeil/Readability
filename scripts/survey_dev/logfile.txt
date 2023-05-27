@@ -1,0 +1,29 @@
+ * Serving Flask app "main.py"
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:17000/ (Press CTRL+C to quit)
+129.79.197.181 - - [01/Feb/2023 21:58:23] "[33mGET /readability HTTP/1.0[0m" 404 -
+129.79.197.181 - - [01/Feb/2023 21:58:38] "[37mGET / HTTP/1.0[0m" 200 -
+129.79.197.181 - - [01/Feb/2023 21:58:40] "[37mPOST /setcookie HTTP/1.0[0m" 200 -
+[2023-02-01 21:58:41,729] ERROR in app: Exception on /getlang [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/aconeil/Readability/scripts/survey_dev/main.py", line 36, in getlang
+    flask.session["ranking"] = load_data(iso)
+  File "/home/aconeil/Readability/scripts/survey_dev/main.py", line 88, in load_data
+    best_hundred.append(ranked_data[i])
+IndexError: list index out of range
+129.79.197.181 - - [01/Feb/2023 21:58:41] "[35m[1mGET /getlang?iso=ca HTTP/1.0[0m" 500 -
