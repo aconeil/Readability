@@ -21,7 +21,7 @@ def cookie():
         scheduler.start()
         return flask.render_template('index.html')
 
-@app.route('/setcookie', methods = ['GET', 'POST'])
+@app.route('/setcookie', methods=['GET', 'POST'])
 #if the participant approved the irb form, they can select a language
 def setcookie():
         if flask.request.method == 'POST':
