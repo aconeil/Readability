@@ -32,6 +32,5 @@ def best_rankings(m, x):
             res = p1*p2
             #append the value of the relevance along with the sentence ids
             relevance.append([res, i, j])
-        print("cycle", i , "finished")
         relevance = sorted(relevance, key=lambda x: x[0], reverse=True)
     return relevance
